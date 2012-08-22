@@ -1,6 +1,0 @@
-graph module_dependencies {
-aynth [id=1120624793934512954 shape=record label="{aynth||controlLoop (DataflowContext)\nsampleLoop (DataflowContext)\nempty_1345218508142_2 (EmptyModuleContent)\nGainProcessor (DataflowProcessor)\nempty_1345220660312_1 (EmptyModuleContent)}"];
-mylib [id=1120624793934515473 shape=component label="mylib"];
-mylib -- aynth [dir=both arrowhead=normal arrowtail=diamond style=solid ]
-
-}

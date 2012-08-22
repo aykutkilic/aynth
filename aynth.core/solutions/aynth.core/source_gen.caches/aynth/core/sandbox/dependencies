@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="aynth.core.sandbox.Makefile" file="Makefile" />
-  <dependency className="aynth.core.sandbox.aynth" file="aynth.c" />
-  <dependency className="aynth.core.sandbox.aynth" file="aynth.h" />
-  <dependency className="aynth.core.sandbox.components_dependencies" file="components_dependencies.gv" />
-  <dependency className="aynth.core.sandbox.module_dependencies" file="module_dependencies.gv" />
-</dependenciesRoot>
-
