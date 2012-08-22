@@ -28,36 +28,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffb1339-05bb-4723-8a9d-1a77e7dae3c8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/behavior/DataflowContext_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/behavior/DataflowPin_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/behavior/DataflowProcessor_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/behavior/DataflowRouting_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dsp/classes_gen/com/mbeddr/dsp/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dsp/classes_gen/com/mbeddr/dsp/behavior/SignalRange_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/dsp/classes_gen/com/mbeddr/dsp/behavior/TimeDomainSignal_BehaviorDescriptor.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/dataflow/classes_gen/com/mbeddr/dataflow/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/behavior/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/constraints/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/editor/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/structure/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/typesystem/generated" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen.caches/com/mbeddr/dataflow/typesystem/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.iws" afterPath="$PROJECT_DIR$/aynth.core.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.mpr" afterPath="$PROJECT_DIR$/aynth.core.mpr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/dataflow.mpl" afterPath="$PROJECT_DIR$/languages/dataflow/dataflow.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/generator/template/com/mbeddr/dataflow/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/dataflow/generator/template/com/mbeddr/dataflow/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/behavior/DataflowContext_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/behavior/DataflowContext_BehaviorDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/behavior/DataflowProcessor_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/behavior/DataflowProcessor_BehaviorDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/dataflow/source_gen/com/mbeddr/dataflow/generator/template/main/QueriesGenerated.java" />
-    </list>
+    <list default="true" id="2ffb1339-05bb-4723-8a9d-1a77e7dae3c8" name="Default" comment="" />
     <ignored path="aynth.core.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,7 +79,7 @@
         <entry file="mps://com.mbeddr.dataflow.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="300">
+              <memento viewPositionX="0" viewPositionY="3">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
@@ -409,7 +380,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959569" sideWeight="0.5029762" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.495228" sideWeight="0.52237195" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.495228" sideWeight="0.52237195" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

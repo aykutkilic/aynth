@@ -10,13 +10,14 @@ junit*.properties
 
 aynth.core/solutions/*/classes_gen
 aynth.core/solutions/*/source_gen
-aynth.core/solutions/*/sourve_gen.caches
+aynth.core/solutions/*/source_gen.caches
 
 aynth.core/languages/*/classes_gen
 aynth.core/languages/*/source_gen
-aynth.core/languages/*/sourve_gen.caches
+aynth.core/languages/*/source_gen.caches
 
-*.iws
+
+*/*.iws
 
 
 # C compiler artifacts
