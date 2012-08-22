@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="1zuzvtpcofa24rqp5gmtx5gz2kn8j6q">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" hash="id0qkq1yf88sv7gez3idbg5y77mbg8" />
+  <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" hash="95i7lykmbwl8340pv7du2i5tf73l8vu" />
+  <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-ajyzeneiufppg326lssnkhhgac3m8vj" />
+  <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="-zyl7iiv3c9v1uigmnpipmvqncmbcoa" />
+  <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="80f5v1s3c5k2hs8oyx6wasqmoebcfg3" />
+  <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="6ivkukn7m9oczgy5zjlp7np1zt97839" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" hash="buws9tfzkelbcnjih7ckrf9rx85z909" />
+  <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="8jekyxxohxv8wl7ykly54bylfwbzzu3" />
+  <dep model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" hash="-bvtr9dbgt0t8iavni7kwcahcrj6g4cs" />
+  <dep model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" hash="-9s0kiapwxy3o09bwpmuan2cn6y4eoz6" />
+  <common hash="dqp3pr4kws14hx0dczakakf6y9aacc5">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="1120624793934512954" name="aynth" hash="5gglr229zll47fy52yw6siutu5o82t8">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" />
+    <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
+    <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <dep model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" />
+    <file name="aynth.c" />
+    <file name="aynth.h" />
+  </source>
+  <source id="1120624793934515469" name="BuildConfiguration for aynth.core.sandbox" hash="-de85aalomqhfvx91k34mq4athrwc1vm">
+    <dep root="1120624793934512954" />
+    <dep model="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" />
+    <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
+    <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
+    <dep model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+    <file name="Makefile" />
+    <file name="components_dependencies.gv" />
+    <file name="module_dependencies.gv" />
+  </source>
+  <source id="1120624793934515577" name="TypeSizeConfiguration for aynth.core.sandbox" hash="-cq2kquiol9hssmgvv455hars5c9drzk">
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+  </source>
+</dependencies>
+

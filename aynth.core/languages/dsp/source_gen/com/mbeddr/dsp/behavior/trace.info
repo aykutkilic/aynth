@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="com.mbeddr.dsp.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="SignalRange_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="com.mbeddr.dsp.behavior.SignalRange_BehaviorDescriptor" />
+  <unitInfo fileName="TimeDomainSignal_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="com.mbeddr.dsp.behavior.TimeDomainSignal_BehaviorDescriptor" />
+</debugInfo>
+

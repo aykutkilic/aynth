@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="com.mbeddr.dataflow.generator.template.main.QueriesGenerated" />
+  <root nodeId="1120624793934515867">
+    <nodeInfo nodeId="1120624793934519930" fileName="QueriesGenerated.java" startLine="10" startPosition="154" endLine="11" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1120624793934519929" fileName="QueriesGenerated.java" startLine="10" startPosition="154" endLine="11" endPosition="69" />
+  </root>
+  <root nodeId="1120624793934515868">
+    <nodeInfo nodeId="1120624793934518162" fileName="QueriesGenerated.java" startLine="14" startPosition="154" endLine="15" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1120624793934518161" fileName="QueriesGenerated.java" startLine="14" startPosition="154" endLine="15" endPosition="69" />
+  </root>
+</debugInfo>
+
