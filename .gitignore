@@ -1,0 +1,23 @@
+.DS_Store
+.metadata
+.svn
+
+junitvmwatcher*.properties
+build.properties
+TEST-*.xml
+junit*.properties
+
+
+aynth.core/solutions/*/classes_gen
+aynth.core/solutions/*/source_gen
+aynth.core/solutions/*/sourve_gen.caches
+
+aynth.core/languages/*/classes_gen
+aynth.core/languages/*/source_gen
+aynth.core/languages/*/sourve_gen.caches
+
+*.iws
+
+
+# C compiler artifacts
+*.o
