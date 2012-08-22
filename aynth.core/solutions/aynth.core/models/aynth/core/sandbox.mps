@@ -29,7 +29,7 @@
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.DataflowContext" typeId="adf4.1120624793934396762" id="1120624793934514048">
       <property name="name" nameId="tpck.1169194664001" value="sampleLoop" />
-      <property name="type" nameId="adf4.1120624793934396768" value="buffered" />
+      <property name="type" nameId="adf4.1120624793934396768" value="time-domain-signal" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="1120624793934526417">
       <property name="name" nameId="tpck.1169194664001" value="empty_1345218508142_2" />
@@ -88,8 +88,16 @@
               </node>
             </node>
           </node>
-          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="6252103499249526304">
-            <property name="comment" nameId="c4fa.1679452829930336985" value="result = osc1 + osc2" />
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5566789033754403236" />
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5566789033754403153">
+            <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="5566789033754403157">
+              <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5566789033754403160">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8888688038029296450" resolveInfo="osc2" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5566789033754403154">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8888688038029295735" resolveInfo="osc1" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
