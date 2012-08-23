@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;aynth.engine/aynth.engine.cpp&apos; to &apos;aynth_engine.cpp&apos;" description="Rename resource &apos;aynth.engine.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="aynth.engine.cpp" name="aynth_engine.cpp" stamp="1345193728818" updateReferences="true"/>
+</session>

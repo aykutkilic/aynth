@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : engine.cpp
+// Author      : Aykut Kilic
+// Version     :
+// Copyright   : Copyrighted to itemis AG
+// Description : Hello World in C, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <jack/jack.h>
+
+jack_port_t * p_input_port;
+jack_port_t * p_output_port;
+
+int process( jack_nframes_t n_frames, void * p_arg ) {
+	return 0;
+}
+
+void jack_shutdown() {
+	exit(1);
+}
+
+int main(int argc, char *argv[]) {
+	jack_client_t * p_client;
+	const char ** pp_ports;
+
+	return EXIT_SUCCESS;
+}

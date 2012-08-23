@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="5ch" modelUID="r:57fa0e32-ba18-4430-9b46-4a5d641cb64e(com.mbeddr.dsp.structure)" version="-1" />
+    </dependencies>
+    <rename id="5ch.6232457784073191361" type="CONCEPT" from="FrequencyDomainal" to="SignalRange" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="5ch" modelUID="r:57fa0e32-ba18-4430-9b46-4a5d641cb64e(com.mbeddr.dsp.structure)" version="0" />
+    </dependencies>
+    <rename id="5ch.6232457784073235033" type="CHILD" from="fromExpression" to="from" />
+  </StructureModification>
+</history>
+
