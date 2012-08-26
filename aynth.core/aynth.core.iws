@@ -29,22 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef98ce5-9e7b-4dc1-af20-856ef7a5ff9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.history" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth.engine/.cproject" afterPath="$PROJECT_DIR$/../aynth.engine/.cproject" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth.engine/aynth_engine.o" afterPath="$PROJECT_DIR$/../aynth.engine/aynth_engine.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth.engine/engine" afterPath="$PROJECT_DIR$/../aynth.engine/engine" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.iws" afterPath="$PROJECT_DIR$/aynth.core.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/dataflow.mpl" afterPath="$PROJECT_DIR$/languages/dataflow/dataflow.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/generator/template/com/mbeddr/dataflow/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/dataflow/generator/template/com/mbeddr/dataflow/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/textGen.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dataflow/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/dataflow/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/dsp/dsp.mpl" afterPath="$PROJECT_DIR$/languages/dsp/dsp.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/aynth.core/models/aynth/core/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/aynth.core/models/aynth/core/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth.engine/aynth_engine.cpp" afterPath="$PROJECT_DIR$/../aynth.engine/aynth_engine.cpp" />
     </list>
     <ignored path="aynth.core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,19 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://com.mbeddr.dataflow.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="769">
+              <memento viewPositionX="0" viewPositionY="709">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="24" />
-                    <property name="caretX" value="413" />
+                    <property name="caretX" value="588" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                      <node model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" id="3156100806872812210" />
+                    <cellInfo cellId="Constant_9o3sb9_a0_0" cellNumber="0" isInList="false">
+                      <node model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" id="3156100806872812750" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -158,9 +143,9 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="12" />
-                    <property name="caretX" value="51" />
+                    <property name="caretX" value="297" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_zce5tp_g0" cellNumber="0" isInList="false">
+                    <cellInfo cellId="Constant_zce5tp_d0" cellNumber="0" isInList="false">
                       <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth.core.sandbox)" id="6887334175325964391" />
                     </cellInfo>
                   </stackElement>
@@ -175,7 +160,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.core.sandbox/text" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="a.core.sandbox/text" pinned="false" current="true" current-in-tab="true">
         <entry file="previewGenerated text for aynth.core.sandbox">
           <provider selected="true" editor-type-id="GeneratedTextPreview">
             <state />
@@ -193,8 +178,8 @@
     <option name="warnings" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-1056" />
+    <option name="x" value="-1855" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
@@ -498,7 +483,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-1056" width="1855" height="1056" extended-state="6" />
+    <frame x="-1855" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,13 +492,13 @@
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.49815497" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286991" sideWeight="0.30889487" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
@@ -524,8 +509,8 @@
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3531746" sideWeight="0.5708895" order="22" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.8345705" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1034,18 +1019,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://aynth.core.sandbox/aynth">
+    <entry file="mps://com.mbeddr.dataflow.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="709">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="12" />
-                <property name="caretX" value="51" />
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="588" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zce5tp_g0" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth.core.sandbox)" id="6887334175325964391" />
+                <cellInfo cellId="Constant_9o3sb9_a0_0" cellNumber="0" isInList="false">
+                  <node model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" id="3156100806872812750" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1082,18 +1067,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://com.mbeddr.dataflow.generator.template.main@generator/main">
+    <entry file="mps://aynth.core.sandbox/aynth">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="769">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="24" />
-                <property name="caretX" value="413" />
+                <property name="caretXRelative" value="12" />
+                <property name="caretX" value="297" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                  <node model="r:c62c105b-267c-4be9-b8b3-483eaabbbf1e(com.mbeddr.dataflow.generator.template.main@generator)" id="3156100806872812210" />
+                <cellInfo cellId="Constant_zce5tp_d0" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth.core.sandbox)" id="6887334175325964391" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
