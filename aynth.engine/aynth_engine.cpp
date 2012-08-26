@@ -11,6 +11,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <jack/jack.h>
+#include <aynth.h>
 
 jack_port_t * p_input_port;
 jack_port_t * p_output_port;
@@ -26,6 +27,7 @@ int process(jack_nframes_t n_frames, void * p_arg) {
 
 void jack_shutdown(void * p_arg) {
 	exit(1);
+
 }
 
 int main(int argc, char *argv[]) {

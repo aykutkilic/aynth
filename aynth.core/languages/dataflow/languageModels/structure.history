@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="adf4.1120624793934396768" type="PROPERTY" from="type" to="kind" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="3" />
+    </dependencies>
+    <rename id="adf4.1120624793934526437" type="CONCEPT" from="DataflowProcessor" to="Processor" />
+  </StructureModification>
 </history>
 
