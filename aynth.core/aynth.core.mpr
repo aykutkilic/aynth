@@ -7,7 +7,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/dataflow/dataflow.mpl" />
-      <modulePath path="${project}/languages/dsp/dsp.mpl" folder="" />
       <modulePath path="${project}/solutions/aynth.core/aynth.core.msd" />
     </projectModules>
     <genConfs />

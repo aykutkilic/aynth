@@ -6,7 +6,6 @@
   <sourcePath />
   <usedLanguages>
     <usedLanguage>60925c3a-d882-4765-88b2-8e6f4b319600(com.mbeddr.dataflow)</usedLanguage>
-    <usedLanguage>21ac3db7-6546-45b7-90aa-f4db9c6cde07(com.mbeddr.dsp)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)</usedDevKit>
