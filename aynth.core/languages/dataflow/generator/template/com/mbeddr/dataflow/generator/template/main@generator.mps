@@ -252,6 +252,26 @@
                   </node>
                 </node>
               </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="3156100806872926099">
+                <property name="name" nameId="tpck.1169194664001" value="dt" />
+                <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="3156100806872926100">
+                  <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                  <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+                </node>
+                <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="3156100806872926105">
+                  <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3156100806872926102">
+                    <property name="value" nameId="mj1l.8860443239512128104" value="1" />
+                  </node>
+                  <node role="right" roleId="mj1l.8860443239512128065" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="3156100806872926116">
+                    <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="3156100806872926120">
+                      <link role="member" roleId="clbe.7099329415460397525" targetNodeId="3156100806872811810" resolveInfo="SAMPLE_RATE" />
+                    </node>
+                    <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="3156100806872926108">
+                      <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="3156100806872811817" resolveInfo="__synth" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ForStatement" typeId="c4fa.7254843406768596598" id="6887334175326027886">
                 <node role="iterator" roleId="c4fa.7254843406768606784" type="c4fa.ForVarDecl" typeId="c4fa.7254843406768606755" id="6887334175326027889">
                   <property name="name" nameId="tpck.1169194664001" value="i" />
@@ -292,16 +312,11 @@
                   </node>
                   <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="3156100806872811546">
                     <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.DirectPlusAssignmentExpression" typeId="mj1l.3820836583575227340" id="6887334175326027921">
-                      <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="6887334175326027927">
-                        <node role="right" roleId="mj1l.8860443239512128065" type="x27k.GlobalVarRef" typeId="x27k.6610873504380357354" id="3156100806872805765">
-                          <link role="var" roleId="x27k.6610873504380357355" targetNodeId="3156100806872805761" resolveInfo="SAMPLE_RATE" />
-                        </node>
-                        <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6887334175326027924">
-                          <property name="value" nameId="mj1l.8860443239512128104" value="1" />
-                        </node>
-                      </node>
                       <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="6887334175326027918">
                         <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="6887334175326027910" resolveInfo="t" />
+                      </node>
+                      <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="3156100806872926121">
+                        <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="3156100806872926099" resolveInfo="dt" />
                       </node>
                     </node>
                   </node>
