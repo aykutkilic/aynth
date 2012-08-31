@@ -68,7 +68,10 @@
       <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="1120624793934515474">
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="1120624793934512954" resolveInfo="processors" />
       </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="6266996706315510696">
+      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="6266996706315511341">
+        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="3251553248649792440" resolveInfo="sound_engine" />
+      </node>
+      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="6266996706315515914">
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="6266996706315510679" resolveInfo="jack" />
       </node>
     </node>
@@ -78,6 +81,7 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="1120624793934515765">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="1120624793934515766" />
     </node>
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="8yj6.StatemachineInCompsConfigItem" typeId="8yj6.1656687801206464316" id="6266996706315510819" />
   </root>
   <root id="1120624793934515577">
     <node role="specifications" roleId="mj1l.3335993110369805710" type="mj1l.TypeSizeSpecification" typeId="mj1l.3335993110369795381" id="1120624793934515578">
@@ -232,9 +236,13 @@
     </node>
   </root>
   <root id="3251553248649792440">
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6266996706315510815">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1346452033524_1" />
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="v7ag.AtomicComponent" typeId="v7ag.4491876417845649011" id="3251553248649792441">
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VoiceFactory" />
+      <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="6266996706315510816" />
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="3251553248649792442">
         <property name="name" nameId="tpck.1169194664001" value="note_on" />
         <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="3251553248649792443">
@@ -1170,9 +1178,6 @@
     </node>
   </root>
   <root id="6266996706315510679">
-    <node role="imports" roleId="x27k.1317894735999304826" type="x27k.StdHeaderImport" typeId="x27k.3830958861296798479" id="6266996706315510681">
-      <property name="headerFileName" nameId="x27k.3830958861296798480" value="jack/jack.h" />
-    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="6266996706315510682">
       <property name="name" nameId="tpck.1169194664001" value="jack_nframes_t" />
       <node role="original" roleId="clbe.6116558314501347862" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="6266996706315510684">
@@ -1180,12 +1185,7 @@
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
     </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="6266996706315510690">
-      <property name="name" nameId="tpck.1169194664001" value="jack_client_t" />
-      <node role="original" roleId="clbe.6116558314501347862" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="6266996706315510692">
-        <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="6266996706315510690" resolveInfo="jack_client_t" />
-      </node>
-    </node>
+    <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.HeaderDescriptor" typeId="x27k.6116558314501417952" id="6266996706315519327" />
   </root>
 </model>
 
