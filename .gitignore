@@ -16,6 +16,7 @@ aynth.core/languages/*/classes_gen
 aynth.core/languages/*/source_gen
 aynth.core/languages/*/source_gen.caches
 
+data/samples/piano/*.aiff
 
 */*.iws
 

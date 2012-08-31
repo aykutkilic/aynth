@@ -30,5 +30,17 @@
     </dependencies>
     <rename id="adf4.1120624793934526437" type="CONCEPT" from="DataflowProcessor" to="Processor" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="4" />
+    </dependencies>
+    <rename id="adf4.1120624793934558355" type="CHILD" from="body" to="process" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="5" />
+    </dependencies>
+    <rename id="adf4.3083299916707412679" type="CONCEPT" from="PinSet" to="ProcessorInterface" />
+  </StructureModification>
 </history>
 
