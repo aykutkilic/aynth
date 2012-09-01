@@ -3781,7 +3781,7 @@
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377710">
             <property name="const" nameId="mj1l.2941277002445651368" value="true" />
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="true" />
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3827,6 +3827,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377712">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3851,6 +3852,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377715">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3870,6 +3872,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377718">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3901,6 +3904,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377720">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3921,6 +3925,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377721">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3941,6 +3946,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377723">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -3980,6 +3986,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377724">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -4008,6 +4015,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377725">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4018,6 +4026,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377797">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -4181,6 +4190,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377732">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376599" resolveInfo="jack_port_t" />
           </node>
         </node>
@@ -4752,6 +4762,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377759">
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4785,7 +4796,7 @@
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="5101660147481377554">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377761">
+          <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481385903">
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4811,6 +4822,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377762">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4830,6 +4842,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377763">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4849,6 +4862,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377764">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4869,6 +4883,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377765">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4929,6 +4944,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377768">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
@@ -4954,6 +4970,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.279446265608459825" type="clbe.OpaqueType" typeId="clbe.841971064023564" id="5101660147481377780">
+            <property name="const" nameId="mj1l.2941277002445651368" value="true" />
             <link role="decl" roleId="clbe.841971064023567" targetNodeId="5101660147481376601" resolveInfo="jack_client_t" />
           </node>
         </node>
