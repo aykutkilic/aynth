@@ -4,6 +4,9 @@
     <modelRoot path="${solution_descriptor}/models" />
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">7bb2fde4-1dd3-4cc6-b8d6-6755853dd5fd(com.mbeddr.ext.exceptionhandling)</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguage>60925c3a-d882-4765-88b2-8e6f4b319600(com.mbeddr.dataflow)</usedLanguage>
   </usedLanguages>

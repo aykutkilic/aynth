@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;mbeddr.core&apos;" deleteContents="true" description="Delete resource &apos;mbeddr.core&apos;" element1="/mbeddr.core" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1344030257466"/>
-</session>
