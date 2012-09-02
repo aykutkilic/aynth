@@ -17,7 +17,13 @@ aynth.core/languages/*/source_gen
 aynth.core/languages/*/source_gen.caches
 
 data/samples/piano/*.aiff
-eclipse/.metadata
+
+# eclipse project temp files
+*/.metadata
+
+# output folders of the c eclipse projects.
+eclipse/*/Debug
+eclipse/*/Release
 
 */*.iws
 
