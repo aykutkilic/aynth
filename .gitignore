@@ -17,6 +17,7 @@ aynth.core/languages/*/source_gen
 aynth.core/languages/*/source_gen.caches
 
 data/samples/piano/*.aiff
+eclipse/.metadata
 
 */*.iws
 
