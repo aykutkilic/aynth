@@ -42,5 +42,59 @@
     </dependencies>
     <rename id="adf4.3083299916707412679" type="CONCEPT" from="PinSet" to="ProcessorInterface" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="6" />
+    </dependencies>
+    <rename id="adf4.7715489649545741719" type="CHILD" from="itemTyoe" to="itemType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="7" />
+    </dependencies>
+    <rename id="adf4.7715489649545709436" type="CONCEPT" from="Bank" to="BankType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="8" />
+    </dependencies>
+    <rename id="adf4.7715489649545933717" type="CHILD" from="array" to="arrayType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="9" />
+    </dependencies>
+    <rename id="adf4.6887334175325988246" type="CHILD" from="type" to="flowType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="10" />
+    </dependencies>
+    <rename id="adf4.3140209388624150048" type="CONCEPT" from="DeltaExpression" to="DerivativeExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="11" />
+    </dependencies>
+    <rename id="adf4.3140209388624398771" type="CONCEPT" from="MemberRefExpr" to="ProcessorMemberRef" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="12" />
+    </dependencies>
+    <rename id="adf4.3140209388624414804" type="CONCEPT" from="ContainedProcessorMemberRefExpr" to="PinRefExpr" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="13" />
+    </dependencies>
+    <rename id="adf4.3784687083654961589" type="CONCEPT" from="ProcessorPinRef" to="ProcessorPinRefExpr" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="14" />
+    </dependencies>
+    <rename id="adf4.1120624793934526437" type="CONCEPT" from="Processor" to="ProcessorDeclaration" />
+  </StructureModification>
 </history>
 
