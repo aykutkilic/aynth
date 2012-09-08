@@ -15,7 +15,7 @@ typedef jack_default_audio_sample_t sample_t;
 
 int process(jack_nframes_t nframes, void * p_param) {
 	int i;
-	struct process_ctx ctx;
+	struct audio_loop_ctx ctx;
 
 	ctx.p_audio_in_buffer = jack_port_get_buffer(p_audio_in, nframes);
 	ctx.p_audio_out_buffer = jack_port_get_buffer(p_audio_out, nframes);
@@ -33,7 +33,7 @@ int process(jack_nframes_t nframes, void * p_param) {
 	}
 
 	// calling back
-	on_process(&ctx);
+	on_audio_loop(&ctx);
 
 	free(ctx.p_midi_in_msg_buffers);
 

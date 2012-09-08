@@ -22,7 +22,7 @@ typedef struct midi_msg {
 	void * p_buffer;
 };
 
-typedef struct process_ctx {
+typedef struct audio_loop_ctx {
 	uint32 nframes;
 
 	uint32 midi_in_event_count;
@@ -35,6 +35,6 @@ typedef struct process_ctx {
 int start_audio_engine(const char * p_name);
 int stop_audio_engine();
 
-extern void on_process(struct process_ctx * p_ctx);
+extern void on_audio_loop(struct audio_loop_ctx * p_ctx);
 
 #endif /* SIMPLIFIED_JACK_H_ */
