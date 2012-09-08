@@ -606,37 +606,41 @@
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="i_audio_engine_listener" />
       <property name="canBeUsedAsType" nameId="v7ag.1539255704408883009" value="false" />
-      <node role="contents" roleId="v7ag.4491876417845484926" type="v7ag.Operation" typeId="v7ag.4491876417845484924" id="6382356015126001299">
-        <property name="name" nameId="tpck.1169194664001" value="on_error" />
-        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="6382356015126001300">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-        <node role="parameters" roleId="v7ag.4491876417845683832" type="v7ag.OperationParameter" typeId="v7ag.4491876417845683828" id="6382356015126001301">
-          <property name="name" nameId="tpck.1169194664001" value="msg" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="6382356015126001303">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="yq40.279446265608459825" type="mj1l.UnsignedInt8tType" typeId="mj1l.8463282783691618461" id="6382356015126001302">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="contents" roleId="v7ag.4491876417845484926" type="v7ag.Operation" typeId="v7ag.4491876417845484924" id="6382356015126001253">
         <property name="name" nameId="tpck.1169194664001" value="on_audio_loop" />
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="6382356015126001254">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         </node>
-        <node role="parameters" roleId="v7ag.4491876417845683832" type="v7ag.OperationParameter" typeId="v7ag.4491876417845683828" id="6382356015126001255">
-          <property name="name" nameId="tpck.1169194664001" value="ctx" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7667478941141728546">
+        <node role="parameters" roleId="v7ag.4491876417845683832" type="v7ag.OperationParameter" typeId="v7ag.4491876417845683828" id="7667478941141791204">
+          <property name="name" nameId="tpck.1169194664001" value="nframes" />
+          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="7667478941141791205">
             <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
             <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="yq40.279446265608459825" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7667478941141728533">
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="6703535165502579050" resolveInfo="audio_loop_ctx" />
+          </node>
+        </node>
+      </node>
+      <node role="contents" roleId="v7ag.4491876417845484926" type="v7ag.Operation" typeId="v7ag.4491876417845484924" id="7667478941141791557">
+        <property name="name" nameId="tpck.1169194664001" value="on_control_loop" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="7667478941141791558">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+      <node role="contents" roleId="v7ag.4491876417845484926" type="v7ag.Operation" typeId="v7ag.4491876417845484924" id="7667478941141791548">
+        <property name="name" nameId="tpck.1169194664001" value="process_midi_in_msg" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="7667478941141791549">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+        <node role="parameters" roleId="v7ag.4491876417845683832" type="v7ag.OperationParameter" typeId="v7ag.4491876417845683828" id="7667478941141791552">
+          <property name="name" nameId="tpck.1169194664001" value="buffer" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7667478941141791555">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="yq40.279446265608459825" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="7667478941141791554">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
             </node>
           </node>
         </node>
@@ -695,9 +699,7 @@
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="6703535165502583574" />
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="6703535165502583566">
         <property name="name" nameId="tpck.1169194664001" value="listener_process" />
-        <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6703535165502583567">
-          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="6703535165502583568" />
-        </node>
+        <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6703535165502583567" />
         <node role="trigger" roleId="v7ag.4491876417845643892" type="v7ag.OperationTrigger" typeId="v7ag.4491876417845641677" id="6703535165502583569">
           <link role="providedPort" roleId="v7ag.4491876417845673829" targetNodeId="6382356015126001002" resolveInfo="listener" />
           <link role="calledOperation" roleId="v7ag.4491876417845641678" targetNodeId="6382356015126001253" resolveInfo="on_audio_loop" />
@@ -717,7 +719,6 @@
           </node>
         </node>
       </node>
-      <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="6382356015126001020" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6703535165502583575">
       <property name="name" nameId="tpck.1169194664001" value="empty_1346623696626_6" />
@@ -2337,6 +2338,320 @@
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="7667478941141728501">
         <property name="name" nameId="tpck.1169194664001" value="forwarder_on_audio_loop" />
         <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141728502">
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="7667478941141791928">
+            <property name="name" nameId="tpck.1169194664001" value="max_step" />
+            <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="7667478941141791929">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+            <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7667478941141791941">
+              <property name="value" nameId="mj1l.8860443239512128104" value="100" />
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="7667478941141791260">
+            <property name="name" nameId="tpck.1169194664001" value="step" />
+            <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="7667478941141791261">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="7667478941141791263">
+            <property name="name" nameId="tpck.1169194664001" value="midi_i" />
+            <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="7667478941141791264">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="7667478941141791347">
+            <property name="name" nameId="tpck.1169194664001" value="current_midi_msg" />
+            <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7667478941141791349">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <node role="baseType" roleId="yq40.279446265608459825" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7667478941141791348">
+                <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="6703535165502579044" resolveInfo="midi_msg" />
+              </node>
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141791540" />
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="7667478941141791351">
+            <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791352">
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791373">
+                <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7667478941141791377">
+                  <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791374">
+                    <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                  </node>
+                  <node role="right" roleId="mj1l.8860443239512128065" type="yq40.ArrayAccessExpr" typeId="yq40.6282313788306893057" id="7667478941141791392">
+                    <node role="expression" roleId="mj1l.7254843406768839760" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="7667478941141791399">
+                      <node role="expression" roleId="mj1l.7254843406768839760" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791383">
+                        <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791388">
+                          <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579055" resolveInfo="p_midi_in_msg_buffers" />
+                        </node>
+                        <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="7667478941141791380">
+                          <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="7667478941141728506" resolveInfo="ctx" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="index" roleId="yq40.6282313788306893059" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791393">
+                      <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791263" resolveInfo="midi_i" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="condition" roleId="c4fa.6275792049641600984" type="mj1l.GreaterExpression" typeId="mj1l.8860443239512147445" id="7667478941141791367">
+              <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7667478941141791370">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791358">
+                <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791363">
+                  <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579053" resolveInfo="midi_in_event_count" />
+                </node>
+                <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="7667478941141791355">
+                  <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="7667478941141728506" resolveInfo="ctx" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141791395" />
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ForStatement" typeId="c4fa.7254843406768596598" id="7667478941141791215">
+            <node role="body" roleId="c4fa.7254843406768606771" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791217">
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791942">
+                <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7667478941141791956">
+                  <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791959">
+                    <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791928" resolveInfo="max_step" />
+                  </node>
+                  <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791943">
+                    <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+                  </node>
+                </node>
+              </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141792260" />
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="7667478941141791408">
+                <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791409">
+                  <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792591">
+                    <property name="comment" nameId="c4fa.1679452829930336985" value="check if midi event is in this step" />
+                  </node>
+                  <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="7667478941141791486">
+                    <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791487">
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792569">
+                        <property name="comment" nameId="c4fa.1679452829930336985" value="reduce step up to next midi event" />
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141792024">
+                        <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7667478941141792048">
+                          <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.MinusExpression" typeId="mj1l.5763383285156373018" id="7667478941141792122">
+                            <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792135">
+                              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791254" resolveInfo="audio_i" />
+                            </node>
+                            <node role="left" roleId="mj1l.8860443239512128064" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141792084">
+                              <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141792098">
+                                <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579045" resolveInfo="time" />
+                              </node>
+                              <node role="expression" roleId="mj1l.7254843406768839760" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792061">
+                                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                              </node>
+                            </node>
+                          </node>
+                          <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792025">
+                            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141792547" />
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792292">
+                        <property name="comment" nameId="c4fa.1679452829930336985" value="process audio up-to midi message" />
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141792157">
+                        <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141792161">
+                          <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="6382356015126001253" resolveInfo="on_audio_loop" />
+                          <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.RequiredPortRefExpr" typeId="v7ag.8105003328815208362" id="7667478941141792158">
+                            <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="6703535165502583608" resolveInfo="listener" />
+                          </node>
+                          <node role="actuals" roleId="v7ag.8105003328815091213" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792172">
+                            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141792303" />
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141791537">
+                        <property name="comment" nameId="c4fa.1679452829930336985" value="process midi in message" />
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791559">
+                        <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141791564">
+                          <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="7667478941141791548" resolveInfo="process_midi_in_msg" />
+                          <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.RequiredPortRefExpr" typeId="v7ag.8105003328815208362" id="7667478941141791560">
+                            <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="6703535165502583608" resolveInfo="listener" />
+                          </node>
+                          <node role="actuals" roleId="v7ag.8105003328815091213" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791614">
+                            <node role="expression" roleId="mj1l.7254843406768839760" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791625">
+                              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                            </node>
+                            <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791638">
+                              <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579047" resolveInfo="p_buffer" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141792346" />
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792335">
+                        <property name="comment" nameId="c4fa.1679452829930336985" value="process control loop" />
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791650">
+                        <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141791660">
+                          <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="7667478941141791557" resolveInfo="on_control_loop" />
+                          <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.RequiredPortRefExpr" typeId="v7ag.8105003328815208362" id="7667478941141791651">
+                            <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="6703535165502583608" resolveInfo="listener" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141791661" />
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141791539">
+                        <property name="comment" nameId="c4fa.1679452829930336985" value="iterate to the next midi msg" />
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791673">
+                        <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.PostIncrementExpression" typeId="mj1l.4375898003726285486" id="7667478941141791682">
+                          <node role="expression" roleId="mj1l.7254843406768839760" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791674">
+                            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791263" resolveInfo="midi_i" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="7667478941141791695">
+                        <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791696">
+                          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791779">
+                            <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7667478941141791788">
+                              <node role="right" roleId="mj1l.8860443239512128065" type="yq40.ArrayAccessExpr" typeId="yq40.6282313788306893057" id="7667478941141791834">
+                                <node role="expression" roleId="mj1l.7254843406768839760" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="7667478941141791854">
+                                  <node role="expression" roleId="mj1l.7254843406768839760" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791809">
+                                    <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791825">
+                                      <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579055" resolveInfo="p_midi_in_msg_buffers" />
+                                    </node>
+                                    <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="7667478941141791796">
+                                      <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="7667478941141728506" resolveInfo="ctx" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node role="index" roleId="yq40.6282313788306893059" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791840">
+                                  <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791263" resolveInfo="midi_i" />
+                                </node>
+                              </node>
+                              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791780">
+                                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="condition" roleId="c4fa.6275792049641600984" type="mj1l.GreaterExpression" typeId="mj1l.8860443239512147445" id="7667478941141791736">
+                          <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791744">
+                            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791263" resolveInfo="midi_i" />
+                          </node>
+                          <node role="left" roleId="mj1l.8860443239512128064" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791711">
+                            <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791721">
+                              <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579053" resolveInfo="midi_in_event_count" />
+                            </node>
+                            <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="7667478941141791703">
+                              <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="7667478941141728506" resolveInfo="ctx" />
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elsePart" roleId="c4fa.3134547887598486571" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7667478941141791750">
+                          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141791756">
+                            <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7667478941141791765">
+                              <node role="right" roleId="mj1l.8860443239512128065" type="yq40.NullExpression" typeId="yq40.5308710777891643206" id="7667478941141791773" />
+                              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791757">
+                                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ContinueStatement" typeId="c4fa.8132151755547066635" id="7667478941141792410" />
+                    </node>
+                    <node role="condition" roleId="c4fa.6275792049641600984" type="mj1l.GreaterEqualsExpression" typeId="mj1l.8860443239512147447" id="7667478941141791996">
+                      <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="7667478941141791997">
+                        <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791998">
+                          <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+                        </node>
+                        <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791999">
+                          <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791254" resolveInfo="audio_i" />
+                        </node>
+                      </node>
+                      <node role="right" roleId="mj1l.8860443239512128065" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141792000">
+                        <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141792001">
+                          <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579045" resolveInfo="time" />
+                        </node>
+                        <node role="expression" roleId="mj1l.7254843406768839760" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792002">
+                          <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="condition" roleId="c4fa.6275792049641600984" type="mj1l.NotEqualsExpression" typeId="mj1l.7615572890648529894" id="7667478941141791426">
+                  <node role="right" roleId="mj1l.8860443239512128065" type="yq40.NullExpression" typeId="yq40.5308710777891643206" id="7667478941141791434" />
+                  <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791418">
+                    <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791347" resolveInfo="current_midi_msg" />
+                  </node>
+                </node>
+              </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141791884" />
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792421">
+                <property name="comment" nameId="c4fa.1679452829930336985" value="process control loop" />
+              </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141792443">
+                <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141792457">
+                  <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="7667478941141791557" resolveInfo="on_control_loop" />
+                  <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.RequiredPortRefExpr" typeId="v7ag.8105003328815208362" id="7667478941141792444">
+                    <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="6703535165502583608" resolveInfo="listener" />
+                  </node>
+                </node>
+              </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.CommentStatement" typeId="c4fa.1679452829930336984" id="7667478941141792469">
+                <property name="comment" nameId="c4fa.1679452829930336985" value="process audio loop" />
+              </node>
+              <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141792491">
+                <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141792505">
+                  <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="6382356015126001253" resolveInfo="on_audio_loop" />
+                  <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.RequiredPortRefExpr" typeId="v7ag.8105003328815208362" id="7667478941141792492">
+                    <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="6703535165502583608" resolveInfo="listener" />
+                  </node>
+                  <node role="actuals" roleId="v7ag.8105003328815091213" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792506">
+                    <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="condition" roleId="c4fa.7254843406768606787" type="mj1l.LessExpression" typeId="mj1l.8860443239512147449" id="7667478941141791235">
+              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141791231">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791254" resolveInfo="audio_i" />
+              </node>
+              <node role="right" roleId="mj1l.8860443239512128065" type="clbe.SUArrowExpression" typeId="clbe.7063398228162571833" id="7667478941141791241">
+                <node role="member" roleId="mj1l.1452920870317550651" type="clbe.MemberRef" typeId="clbe.7099329415460395995" id="7667478941141791246">
+                  <link role="member" roleId="clbe.7099329415460397525" targetNodeId="6703535165502579051" resolveInfo="nframes" />
+                </node>
+                <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="7667478941141791238">
+                  <link role="arg" roleId="x27k.2093108837558505659" targetNodeId="7667478941141728506" resolveInfo="ctx" />
+                </node>
+              </node>
+            </node>
+            <node role="iterator" roleId="c4fa.7254843406768606784" type="c4fa.ForVarDecl" typeId="c4fa.7254843406768606755" id="7667478941141791254">
+              <property name="name" nameId="tpck.1169194664001" value="audio_i" />
+              <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="7667478941141791255">
+                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              </node>
+              <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7667478941141791257">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+            </node>
+            <node role="incr" roleId="c4fa.7254843406768606790" type="mj1l.DirectPlusAssignmentExpression" typeId="mj1l.3820836583575227340" id="7667478941141792206">
+              <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792219">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791260" resolveInfo="step" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="7667478941141792183">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="7667478941141791254" resolveInfo="audio_i" />
+              </node>
+            </node>
+          </node>
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="7667478941141791199" />
           <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7667478941141728509">
             <node role="expr" roleId="c4fa.7254843406768833939" type="v7ag.RequiredPortOpCallExpr" typeId="v7ag.466603768608442377" id="7667478941141728513">
               <link role="operation" roleId="v7ag.8105003328815071752" targetNodeId="6382356015126001253" resolveInfo="on_audio_loop" />
