@@ -19,6 +19,7 @@ typedef unsigned long long uint64;
 
 typedef struct midi_msg {
 	uint32 time;
+	uint32 length;
 	void * p_buffer;
 };
 

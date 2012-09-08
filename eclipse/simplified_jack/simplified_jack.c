@@ -29,6 +29,7 @@ int process(jack_nframes_t nframes, void * p_param) {
 	for (i = 0; i < ctx.midi_in_event_count; i++) {
 		jack_midi_event_get(&midi_in_event, p_midi_in_port_buffer, i);
 		ctx.p_midi_in_msg_buffers[i].time = midi_in_event.time;
+		ctx.p_midi_in_msg_buffers[i].length = midi_in_event.size;
 		ctx.p_midi_in_msg_buffers[i].p_buffer = midi_in_event.buffer;
 	}
 
