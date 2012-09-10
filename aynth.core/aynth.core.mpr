@@ -6,6 +6,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="${project}/languages/audio/audio.mpl" folder="" />
       <modulePath path="${project}/languages/dataflow/dataflow.mpl" />
       <modulePath path="${project}/solutions/aynth.core/aynth.core.msd" />
     </projectModules>
