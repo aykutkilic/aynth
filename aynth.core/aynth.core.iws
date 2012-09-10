@@ -40,15 +40,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef98ce5-9e7b-4dc1-af20-856ef7a5ff9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/audio.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/languageModels/behavior.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/languageModels/constraints.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/languageModels/editor.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/languageModels/structure.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/audio/languageModels/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.iws" afterPath="$PROJECT_DIR$/aynth.core.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.mpr" afterPath="$PROJECT_DIR$/aynth.core.mpr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/aynth.core/models/aynth.mps" afterPath="$PROJECT_DIR$/solutions/aynth.core/models/aynth.mps" />
     </list>
     <ignored path="aynth.core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -296,6 +288,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
@@ -654,7 +647,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="-1920" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.47708896" order="7" side_tool="false" content_ui="tabs" />
@@ -948,7 +941,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added ProcessorType and changed Processor to ProcessorDeclaration. (the same pattern with structs)&#10;- ProcessorPin references now work&#10;- Modes are combined with enums." />
+    <option name="LAST_COMMIT_MESSAGE" value="added stdlib for dynamic memory management.&#10;introduced a new language for audio signal processing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -967,6 +960,7 @@
     <MESSAGE value="some renaming + added simplified jack to core." />
     <MESSAGE value="some late night modifications." />
     <MESSAGE value="- Added ProcessorType and changed Processor to ProcessorDeclaration. (the same pattern with structs)&#10;- ProcessorPin references now work&#10;- Modes are combined with enums." />
+    <MESSAGE value="added stdlib for dynamic memory management.&#10;introduced a new language for audio signal processing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://com.mbeddr.dataflow.structure/ProcessorDeclaration">
