@@ -45,6 +45,14 @@
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2013381923439833161">
       <property name="name" nameId="tpck.1169194664001" value="IToneContent" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2013381923439853793">
+      <property name="name" nameId="tpck.1169194664001" value="MIDIToPinMapping" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="2013381923439853797">
+      <property name="name" nameId="tpck.1169194664001" value="MIDIControllerType" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
   </roots>
   <root id="6783606093476098298">
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6783606093476109900">
@@ -120,6 +128,10 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2013381923439833164">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2013381923439833161" resolveInfo="IToneContent" />
     </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2013381923439845871">
+      <property name="value" nameId="tpce.1105725733873" value="bind" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
   </root>
   <root id="2013381923439668440">
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2013381923439668441">
@@ -133,6 +145,10 @@
       <property name="role" nameId="tpce.1071599776563" value="processor" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="adf4.1120624793934526437" resolveInfo="ProcessorDeclaration" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2013381923439845872">
+      <property name="value" nameId="tpce.1105725733873" value="instance" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
   <root id="2013381923439668479">
@@ -152,54 +168,6 @@
     </node>
   </root>
   <root id="2013381923439668493">
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668495">
-      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="C-1" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668497">
-      <property name="externalValue" nameId="tpce.1083923523172" value="C#-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668498">
-      <property name="externalValue" nameId="tpce.1083923523172" value="D-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668499">
-      <property name="externalValue" nameId="tpce.1083923523172" value="D#-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="3" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668500">
-      <property name="externalValue" nameId="tpce.1083923523172" value="E-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="4" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668502">
-      <property name="externalValue" nameId="tpce.1083923523172" value="F-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="5" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668503">
-      <property name="externalValue" nameId="tpce.1083923523172" value="F#-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="6" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668504">
-      <property name="externalValue" nameId="tpce.1083923523172" value="G-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="7" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668505">
-      <property name="externalValue" nameId="tpce.1083923523172" value="G#-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="8" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668506">
-      <property name="externalValue" nameId="tpce.1083923523172" value="A-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="9" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668507">
-      <property name="externalValue" nameId="tpce.1083923523172" value="A#-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="10" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668508">
-      <property name="externalValue" nameId="tpce.1083923523172" value="B-1" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="11" />
-    </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439668509">
       <property name="externalValue" nameId="tpce.1083923523172" value="C0" />
       <property name="internalValue" nameId="tpce.1083923523171" value="12" />
@@ -666,5 +634,42 @@
     </node>
   </root>
   <root id="2013381923439833161" />
+  <root id="2013381923439853793">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2013381923439853802">
+      <property name="name" nameId="tpck.1169194664001" value="type" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="2013381923439853797" resolveInfo="MIDIControllerType" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2013381923439853795">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="pin" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="adf4.3784687083654961589" resolveInfo="ProcessorPinRefExpr" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2013381923439853796">
+      <property name="name" nameId="tpck.1169194664001" value="controlIndex" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2013381923439887933">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2013381923439833161" resolveInfo="IToneContent" />
+    </node>
+  </root>
+  <root id="2013381923439853797">
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439853798">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="Controller" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439853799">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Pitch Bend" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439853800">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Aftertouch" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2013381923439853801">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Breath" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="3" />
+    </node>
+  </root>
 </model>
 

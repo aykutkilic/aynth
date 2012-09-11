@@ -3214,15 +3214,45 @@
     </node>
     <node role="tones" roleId="76sq.2013381923439668380" type="76sq.ToneDefinition" typeId="76sq.2013381923439668376" id="2013381923439845247">
       <property name="name" nameId="tpck.1169194664001" value="Piano 1" />
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853773">
+        <property name="name" nameId="tpck.1169194664001" value="OSC1" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6688546463199358249" resolveInfo="osc" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853775">
+        <property name="name" nameId="tpck.1169194664001" value="OSC2" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6688546463199358249" resolveInfo="osc" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853783">
+        <property name="name" nameId="tpck.1169194664001" value="MOD" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6057175373189999527" resolveInfo="modulator" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853786">
+        <property name="name" nameId="tpck.1169194664001" value="FX1" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6057175373189999534" resolveInfo="fx" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853788">
+        <property name="name" nameId="tpck.1169194664001" value="FX2" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6057175373189999534" resolveInfo="fx" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.ProcessorInstance" typeId="76sq.2013381923439668440" id="2013381923439853790">
+        <property name="name" nameId="tpck.1169194664001" value="AMP" />
+        <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6057175373189999520" resolveInfo="adsr_envelope" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.PinBinding" typeId="76sq.2013381923439668438" id="2013381923439853777">
+        <node role="pinA" roleId="76sq.2013381923439668477" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="2013381923439853778" />
+      </node>
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.MIDIToPinMapping" typeId="76sq.2013381923439853793" id="2013381923439898144">
+        <property name="type" nameId="76sq.2013381923439853802" value="1" />
+        <node role="pin" roleId="76sq.2013381923439853795" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="2013381923439898145" />
+      </node>
     </node>
     <node role="patches" roleId="76sq.2013381923439668379" type="76sq.PatchDefinition" typeId="76sq.2013381923439668374" id="2013381923439845248">
       <property name="name" nameId="tpck.1169194664001" value="Piano1" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845865" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845866" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845867" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845868" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845869" />
-      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845870" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845865">
+        <property name="startKey" nameId="76sq.2013381923439668480" value="12" />
+        <property name="endKey" nameId="76sq.2013381923439668481" value="127" />
+        <link role="tone" roleId="76sq.2013381923439668482" targetNodeId="2013381923439845247" resolveInfo="Piano 1" />
+      </node>
     </node>
   </root>
 </model>
