@@ -3,6 +3,7 @@
   <persistence version="7" />
   <language namespace="60925c3a-d882-4765-88b2-8e6f4b319600(com.mbeddr.dataflow)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <language namespace="e94ec7c7-e615-4357-99d2-c6cbfa83f993(com.mbeddr.audio)" />
   <devkit namespace="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   <devkit namespace="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   <devkit namespace="1a986be1-0ef0-4f9f-9d8a-81c3ea7227ae(com.mbeddr.physicalunits)" />
@@ -24,6 +25,7 @@
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="7" implicit="yes" />
   <import index="punb" modelUID="r:401d5aa1-f59d-49c0-833e-cf94fb548e92(com.mbeddr.core.cstubs.structure)" version="1" implicit="yes" />
   <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="16" implicit="yes" />
+  <import index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="x27k.ImplementationModule" typeId="x27k.6437088627575722830" id="1120624793934512954">
       <property name="name" nameId="tpck.1169194664001" value="processors" />
@@ -49,6 +51,9 @@
     </node>
     <node type="x27k.ExternalModule" typeId="x27k.6116558314501417921" id="6783606093476155017">
       <property name="name" nameId="tpck.1169194664001" value="stdlib" />
+    </node>
+    <node type="76sq.SoundModuleDefinition" typeId="76sq.2013381923439656772" id="2013381923439845242">
+      <property name="name" nameId="tpck.1169194664001" value="Module1" />
     </node>
   </roots>
   <root id="1120624793934512954">
@@ -586,6 +591,31 @@
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="7715489649545915816">
       <property name="name" nameId="tpck.1169194664001" value="empty_1346704625046_2" />
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="6783606093476155067">
+      <property name="name" nameId="tpck.1169194664001" value="wave_form" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="6783606093476155068">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="6783606093476155079">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="baseType" roleId="yq40.279446265608459825" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="6783606093476155078">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="6783606093476155080">
+        <property name="name" nameId="tpck.1169194664001" value="size" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt32tType" typeId="mj1l.8463282783691618450" id="6783606093476155082">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6783606093476155083">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1347313623822_6" />
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="v7ag.AtomicComponent" typeId="v7ag.4491876417845649011" id="6382356015126001001">
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="aynth" />
@@ -594,6 +624,19 @@
         <link role="intf" roleId="v7ag.4491876417845484932" targetNodeId="6431442358079239812" resolveInfo="i_audio_engine_listener" />
       </node>
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="8627815965871609449" />
+      <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Field" typeId="v7ag.5308710777891512019" id="6783606093476155085">
+        <property name="name" nameId="tpck.1169194664001" value="wave_forms" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="6783606093476155087">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="baseType" roleId="yq40.5679441017214012546" type="clbe.StructType" typeId="clbe.6394819151180597816" id="6783606093476155086">
+            <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="6783606093476155067" resolveInfo="wave_form" />
+          </node>
+          <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6783606093476155088">
+            <property name="value" nameId="mj1l.8860443239512128104" value="128" />
+          </node>
+        </node>
+      </node>
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Field" typeId="v7ag.5308710777891512019" id="8627815965871609451">
         <property name="name" nameId="tpck.1169194664001" value="active_voices" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="8627815965871609453">
@@ -650,6 +693,9 @@
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6703535165502583575">
       <property name="name" nameId="tpck.1169194664001" value="empty_1346623696626_6" />
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6783606093476155065">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1347313563014_4" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="8627815965871609412">
       <property name="name" nameId="tpck.1169194664001" value="key_range" />
@@ -3159,6 +3205,24 @@
     </node>
     <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.HeaderDescriptor" typeId="x27k.6116558314501417952" id="6783606093476155024">
       <property name="path" nameId="x27k.6116558314501417936" value="&lt;stdlib.h&gt;" />
+    </node>
+  </root>
+  <root id="2013381923439845242">
+    <node role="waveforms" roleId="76sq.2013381923439668381" type="76sq.WaveformDefinition" typeId="76sq.6783606093476098298" id="2013381923439845243">
+      <property name="name" nameId="tpck.1169194664001" value="pianoA" />
+      <property name="size" nameId="76sq.6783606093476109901" value="1024" />
+    </node>
+    <node role="tones" roleId="76sq.2013381923439668380" type="76sq.ToneDefinition" typeId="76sq.2013381923439668376" id="2013381923439845247">
+      <property name="name" nameId="tpck.1169194664001" value="Piano 1" />
+    </node>
+    <node role="patches" roleId="76sq.2013381923439668379" type="76sq.PatchDefinition" typeId="76sq.2013381923439668374" id="2013381923439845248">
+      <property name="name" nameId="tpck.1169194664001" value="Piano1" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845865" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845866" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845867" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845868" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845869" />
+      <node role="keyRanges" roleId="76sq.2013381923439695692" type="76sq.KeyRangeDefinition" typeId="76sq.2013381923439668479" id="2013381923439845870" />
     </node>
   </root>
 </model>
