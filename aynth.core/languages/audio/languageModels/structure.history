@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="-1" />
+    </dependencies>
+    <rename id="76sq.7225020080243410459" type="CONCEPT" from="ProcessorInstancePinRefExpr" to="ProcessorInstancePinRef" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="0" />
+    </dependencies>
+    <rename id="76sq.4713094343835775796" type="REFERENCE" from="mem" to="member" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="1" />
+    </dependencies>
+    <rename id="76sq.4713094343835775795" type="REFERENCE" from="processor" to="instance" />
+  </StructureModification>
+</history>
+

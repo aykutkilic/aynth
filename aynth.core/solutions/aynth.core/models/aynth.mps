@@ -25,7 +25,7 @@
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="7" implicit="yes" />
   <import index="punb" modelUID="r:401d5aa1-f59d-49c0-833e-cf94fb548e92(com.mbeddr.core.cstubs.structure)" version="1" implicit="yes" />
   <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="16" implicit="yes" />
-  <import index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="-1" implicit="yes" />
+  <import index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="2" implicit="yes" />
   <roots>
     <node type="x27k.ImplementationModule" typeId="x27k.6437088627575722830" id="1120624793934512954">
       <property name="name" nameId="tpck.1169194664001" value="processors" />
@@ -232,9 +232,9 @@
             <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRef" typeId="adf4.3140209388624398771" id="6057175373189999410">
               <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6688546463199351766" resolveInfo="out" />
             </node>
-            <node role="right" roleId="mj1l.8860443239512128065" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="6057175373189999405">
-              <link role="processor" roleId="adf4.3784687083655044832" targetNodeId="6057175373189958412" resolveInfo="lfo1" />
-              <link role="pin" roleId="adf4.6688546463199361461" targetNodeId="6688546463199351766" resolveInfo="out" />
+            <node role="right" roleId="mj1l.8860443239512128065" type=".com.mbeddr.dataflow.structure.ProcessorPinRefExpr" id="6057175373189999405">
+              <link role="processor" targetNodeId="6057175373189958412" resolveInfo="lfo1" />
+              <link role="pin" targetNodeId="6688546463199351766" resolveInfo="out" />
             </node>
           </node>
         </node>
@@ -247,9 +247,9 @@
               <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6057175373189999425">
                 <property name="value" nameId="mj1l.8860443239512128104" value="2" />
               </node>
-              <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="6057175373189999419">
-                <link role="processor" roleId="adf4.3784687083655044832" targetNodeId="6057175373189958412" resolveInfo="lfo1" />
-                <link role="pin" roleId="adf4.6688546463199361461" targetNodeId="6688546463199351767" resolveInfo="freq" />
+              <node role="left" roleId="mj1l.8860443239512128064" type=".com.mbeddr.dataflow.structure.ProcessorPinRefExpr" id="6057175373189999419">
+                <link role="processor" targetNodeId="6057175373189958412" resolveInfo="lfo1" />
+                <link role="pin" targetNodeId="6688546463199351767" resolveInfo="freq" />
               </node>
             </node>
           </node>
@@ -3238,12 +3238,22 @@
         <property name="name" nameId="tpck.1169194664001" value="AMP" />
         <link role="processor" roleId="76sq.2013381923439668442" targetNodeId="6057175373189999520" resolveInfo="adsr_envelope" />
       </node>
-      <node role="content" roleId="76sq.2013381923439833165" type="76sq.PinBinding" typeId="76sq.2013381923439668438" id="2013381923439853777">
-        <node role="pinA" roleId="76sq.2013381923439668477" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="2013381923439853778" />
+      <node role="content" roleId="76sq.2013381923439833165" type="76sq.PinBinding" typeId="76sq.2013381923439668438" id="4713094343835817725">
+        <node role="pinA" roleId="76sq.2013381923439668477" type="76sq.ProcessorInstancePinRef" typeId="76sq.7225020080243410459" id="4713094343835817726">
+          <link role="instance" roleId="76sq.4713094343835775795" targetNodeId="2013381923439853773" resolveInfo="OSC1" />
+          <link role="member" roleId="76sq.4713094343835775796" targetNodeId="6688546463199358251" resolveInfo="pitch" />
+        </node>
+        <node role="pinB" roleId="76sq.2013381923439668478" type="76sq.ProcessorInstancePinRef" typeId="76sq.7225020080243410459" id="4713094343835817727">
+          <link role="instance" roleId="76sq.4713094343835775795" targetNodeId="2013381923439853786" resolveInfo="FX1" />
+          <link role="member" roleId="76sq.4713094343835775796" targetNodeId="6057175373189999547" resolveInfo="lfo" />
+        </node>
       </node>
       <node role="content" roleId="76sq.2013381923439833165" type="76sq.MIDIToPinMapping" typeId="76sq.2013381923439853793" id="2013381923439898144">
         <property name="type" nameId="76sq.2013381923439853802" value="1" />
-        <node role="pin" roleId="76sq.2013381923439853795" type="adf4.ProcessorPinRefExpr" typeId="adf4.3784687083654961589" id="2013381923439898145" />
+        <node role="pin" roleId="76sq.2013381923439853795" type="76sq.ProcessorInstancePinRef" typeId="76sq.7225020080243410459" id="4713094343835817728">
+          <link role="instance" roleId="76sq.4713094343835775795" targetNodeId="2013381923439853786" resolveInfo="FX1" />
+          <link role="member" roleId="76sq.4713094343835775796" targetNodeId="6057175373189999547" resolveInfo="lfo" />
+        </node>
       </node>
     </node>
     <node role="patches" roleId="76sq.2013381923439668379" type="76sq.PatchDefinition" typeId="76sq.2013381923439668374" id="2013381923439845248">
