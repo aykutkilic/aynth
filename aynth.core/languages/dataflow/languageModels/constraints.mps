@@ -10,7 +10,7 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <import index="hwgx" modelUID="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" version="2" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="16" implicit="yes" />
+  <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="19" implicit="yes" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
@@ -21,11 +21,11 @@
   <roots>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3083299916707463708">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="structure" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="adf4.1120624793934526437" resolveInfo="ProcessorDeclaration" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="adf4.1120624793934526437" resolveInfo="Processor" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3140209388624398782">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="structure" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="adf4.3140209388624398771" resolveInfo="ProcessorMemberRef" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="adf4.3140209388624398771" resolveInfo="ProcessorMemberRefExpr" />
     </node>
   </roots>
   <root id="3083299916707463708">
@@ -38,7 +38,7 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3140209388624478927">
                 <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="3140209388624478906" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="3140209388624478935">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="adf4.1120624793934526437" resolveInfo="ProcessorDeclaration" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="adf4.1120624793934526437" resolveInfo="Processor" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.WhereOperation" typeId="tp2q.1202120902084" id="2006908504567171153">
@@ -86,7 +86,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetAncestorOperation" typeId="tp25.1171407110247" id="3140209388624410045">
                   <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Concept" typeId="tp25.1144101972840" id="3140209388624410046">
                     <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="3140209388624410049">
-                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="adf4.1120624793934526437" resolveInfo="ProcessorDeclaration" />
+                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="adf4.1120624793934526437" resolveInfo="Processor" />
                     </node>
                   </node>
                   <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Inclusion" typeId="tp25.1144100932627" id="3140209388624410051" />
