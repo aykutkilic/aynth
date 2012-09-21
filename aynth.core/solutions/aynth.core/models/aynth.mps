@@ -24,7 +24,7 @@
   <import index="8yj6" modelUID="r:b5ef41ef-8594-459c-bc08-a7e214c6fb43(com.mbeddr.ext.components.statemachine.structure)" version="0" implicit="yes" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="7" implicit="yes" />
   <import index="punb" modelUID="r:401d5aa1-f59d-49c0-833e-cf94fb548e92(com.mbeddr.core.cstubs.structure)" version="1" implicit="yes" />
-  <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="21" implicit="yes" />
+  <import index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="22" implicit="yes" />
   <import index="76sq" modelUID="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" version="2" implicit="yes" />
   <roots>
     <node type="x27k.ImplementationModule" typeId="x27k.6437088627575722830" id="1120624793934512954">
@@ -75,31 +75,6 @@
         <property name="value" nameId="mj1l.8860443239512128104" value="128" />
       </node>
     </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6176768421031354886">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1347809070406_2" />
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2388891798543326528">
-      <property name="name" nameId="tpck.1169194664001" value="A" />
-      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2388891798543326529">
-        <property name="name" nameId="tpck.1169194664001" value="deneme" />
-        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int16tType" typeId="mj1l.8463282783691618435" id="2388891798543326530">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-      </node>
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2388891798543326531">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1348166526995_3" />
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="2388891798543326533">
-      <property name="name" nameId="tpck.1169194664001" value="main" />
-      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
-      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="2388891798543326534">
-        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-      </node>
-      <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2388891798543326535" />
-    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2388891798543326525">
       <property name="name" nameId="tpck.1169194664001" value="empty_1348166516310_1" />
     </node>
@@ -124,8 +99,8 @@
         <property name="name" nameId="tpck.1169194664001" value="SQR_UNI" />
       </node>
     </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="5369925560948027748">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1347804887541_5" />
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="3099352988885349546">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1348237925682_1" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="6176768421031354932">
       <property name="name" nameId="tpck.1169194664001" value="synth" />
@@ -189,28 +164,66 @@
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="6176768421031354926">
       <property name="name" nameId="tpck.1169194664001" value="patch" />
       <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6176768421031354927">
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="141976413434285712">
-          <property name="name" nameId="tpck.1169194664001" value="deneme" />
-          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434285713">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          </node>
-          <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="141976413434285724">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="141976413434285727">
-              <property name="value" nameId="mj1l.8860443239512128104" value="32" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434285719">
-              <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354982" resolveInfo="out" />
-              <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="141976413434285715">
-                <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354983" resolveInfo="STEP" />
-                <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Type" typeId="mj1l.8860443239512128054" id="141976413434285716" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="3099352988885347844">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="3099352988885347854">
+            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="3099352988885349514">
+              <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.ParensExpression" typeId="mj1l.5763383285156533447" id="3099352988885349517">
+                <node role="expression" roleId="mj1l.7254843406768839760" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3099352988885349531">
+                  <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885349526">
+                    <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346897" resolveInfo="out" />
+                    <node role="operand" roleId="adf4.6161009227789772798" type="yq40.ArrayAccessExpr" typeId="yq40.6282313788306893057" id="3099352988885356856">
+                      <node role="expression" roleId="mj1l.7254843406768839760" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349519">
+                        <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354928" resolveInfo="voice" />
+                      </node>
+                      <node role="index" roleId="yq40.6282313788306893059" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885356857">
+                        <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="right" roleId="mj1l.8860443239512128065" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885349543">
+                    <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346897" resolveInfo="out" />
+                    <node role="operand" roleId="adf4.6161009227789772798" type="yq40.ArrayAccessExpr" typeId="yq40.6282313788306893057" id="3099352988885349537">
+                      <node role="expression" roleId="mj1l.7254843406768839760" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349534">
+                        <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354928" resolveInfo="voice" />
+                      </node>
+                      <node role="index" roleId="yq40.6282313788306893059" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885349538">
+                        <property name="value" nameId="mj1l.8860443239512128104" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349511">
+                <link role="member" roleId="adf4.3140209388624432297" targetNodeId="3099352988885125439" resolveInfo="volume" />
+              </node>
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885354093">
+              <link role="member" roleId="adf4.3140209388624432297" targetNodeId="3099352988885125440" resolveInfo="out" />
             </node>
           </node>
         </node>
       </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="3099352988885125439">
+        <property name="name" nameId="tpck.1169194664001" value="volume" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="3099352988885125436">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="3099352988885125440">
+        <property name="name" nameId="tpck.1169194664001" value="out" />
+        <property name="direction" nameId="adf4.1120624793934396788" value="out" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434163097">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434163099">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
       <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="6176768421031354928">
-        <property name="name" nameId="tpck.1169194664001" value="voices" />
+        <property name="name" nameId="tpck.1169194664001" value="voice" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="6176768421031354930">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
@@ -228,35 +241,132 @@
           <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6176768421031354978" resolveInfo="step_sequencer" />
         </node>
       </node>
-      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="141976413434163095">
-        <property name="name" nameId="tpck.1169194664001" value="out" />
-        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434163097">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434163099">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          </node>
-        </node>
-      </node>
-      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434298996">
-        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434331251">
-          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354982" resolveInfo="out" />
-          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="141976413434331253">
-            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354983" resolveInfo="STEP" />
-            <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Type" typeId="mj1l.8860443239512128054" id="141976413434331254" />
-          </node>
-        </node>
-        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434331257">
-          <node role="operand" roleId="adf4.6161009227789772798" type="mj1l.Expression" typeId="mj1l.8860443239512128050" id="141976413434331258" />
-        </node>
-      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6176768421031354924">
       <property name="name" nameId="tpck.1169194664001" value="empty_1347809403431_7" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="6176768421031354896">
       <property name="name" nameId="tpck.1169194664001" value="voice" />
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="3099352988885349480">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885349481">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354960" resolveInfo="pitch" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="3099352988885349485" />
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885349483">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027846" resolveInfo="pitch" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349487">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354898" resolveInfo="OSC1" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346741">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346742">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354960" resolveInfo="pitch" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="141976413434346746" />
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346744">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027846" resolveInfo="pitch" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349490">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354900" resolveInfo="OSC2" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346751">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346752">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027848" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349497">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354898" resolveInfo="OSC1" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346754">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346765" resolveInfo="carrier" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349491">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354909" resolveInfo="MOD" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346786">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346787">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027848" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349498">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354900" resolveInfo="OSC2" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346789">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346775" resolveInfo="modulator" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349492">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354909" resolveInfo="MOD" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346798">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346799">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346783" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349499">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354909" resolveInfo="MOD" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346801">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346810" resolveInfo="in" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349493">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354912" resolveInfo="FX1" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346824">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346825">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346817" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349500">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354912" resolveInfo="FX1" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346827">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346810" resolveInfo="in" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349496">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354915" resolveInfo="FX2" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346838">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346839">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346817" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349501">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354915" resolveInfo="FX2" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346841">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346870" resolveInfo="in" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349508">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="141976413434346871" resolveInfo="AMP" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346900">
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346901">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027823" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349502">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="6176768421031354918" resolveInfo="ADSR" />
+          </node>
+        </node>
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346903">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346868" resolveInfo="gain" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349506">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="141976413434346871" resolveInfo="AMP" />
+          </node>
+        </node>
+      </node>
+      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="141976413434346877">
+        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346880">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346897" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="141976413434346889" />
+        </node>
+        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346884">
+          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="141976413434346869" resolveInfo="out" />
+          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349503">
+            <link role="member" roleId="adf4.3140209388624432297" targetNodeId="141976413434346871" resolveInfo="AMP" />
+          </node>
+        </node>
+      </node>
       <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="6176768421031354960">
         <property name="name" nameId="tpck.1169194664001" value="pitch" />
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="6176768421031354959">
@@ -269,6 +379,17 @@
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="6176768421031354963">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346897">
+        <property name="name" nameId="tpck.1169194664001" value="out" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346894">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346896">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
         </node>
       </node>
       <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="6176768421031354898">
@@ -301,56 +422,61 @@
           <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6057175373189999534" resolveInfo="fx" />
         </node>
       </node>
-      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="6176768421031354918">
+      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="141976413434346871">
         <property name="name" nameId="tpck.1169194664001" value="AMP" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="141976413434346873">
+          <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="141976413434346854" resolveInfo="gain" />
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="6176768421031354918">
+        <property name="name" nameId="tpck.1169194664001" value="ADSR" />
         <node role="type" roleId="mj1l.318113533128716676" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="6176768421031354920">
           <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="5369925560948027803" resolveInfo="adsr_env" />
         </node>
       </node>
-      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="6176768421031354921">
-        <node role="from" roleId="adf4.141976413434298999" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346617">
-          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027754" resolveInfo="out" />
-          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346576">
-            <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6057175373189999547" resolveInfo="lfo" />
-            <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434341542">
-              <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354915" resolveInfo="FX2" />
-              <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="141976413434341544" />
-            </node>
-          </node>
-        </node>
-        <node role="to" roleId="adf4.141976413434299000" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346634">
-          <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027754" resolveInfo="out" />
-          <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346628">
-            <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6057175373189999547" resolveInfo="lfo" />
-            <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346620">
-              <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354912" resolveInfo="FX1" />
-              <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="141976413434346622" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="141976413434346593">
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="141976413434346595">
-          <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="141976413434346640">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="141976413434346643">
-              <property name="value" nameId="mj1l.8860443239512128104" value="2" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346611">
-              <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027754" resolveInfo="out" />
-              <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346605">
-                <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6057175373189999547" resolveInfo="lfo" />
-                <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="141976413434346599">
-                  <link role="member" roleId="adf4.6161009227789655177" targetNodeId="6176768421031354912" resolveInfo="FX1" />
-                  <node role="operand" roleId="adf4.6161009227789772798" type="adf4.SelfExpression" typeId="adf4.141976413434331261" id="141976413434346596" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="141976413434347011">
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="3099352988885349505" />
       </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6176768421031354893">
       <property name="name" nameId="tpck.1169194664001" value="empty_1347809300666_4" />
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="141976413434346854">
+      <property name="name" nameId="tpck.1169194664001" value="gain" />
+      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="141976413434346855" />
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346870">
+        <property name="name" nameId="tpck.1169194664001" value="in" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346857">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346859">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346869">
+        <property name="name" nameId="tpck.1169194664001" value="out" />
+        <property name="direction" nameId="adf4.1120624793934396788" value="out" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346862">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346864">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346868">
+        <property name="name" nameId="tpck.1169194664001" value="gain" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346867">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="141976413434346852">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1348177705640_1" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="5369925560948027746">
       <property name="name" nameId="tpck.1169194664001" value="modulatable" />
@@ -358,15 +484,6 @@
         <property name="name" nameId="tpck.1169194664001" value="env" />
         <node role="type" roleId="mj1l.318113533128716676" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="5369925560948027824">
           <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="5369925560948027803" resolveInfo="adsr_env" />
-        </node>
-      </node>
-      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="5369925560948027747">
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="5369925560948056720">
-          <property name="name" nameId="tpck.1169194664001" value="deneme" />
-          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt16tType" typeId="mj1l.8463282783691618466" id="5369925560948056721">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          </node>
         </node>
       </node>
       <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="5369925560948027759">
@@ -403,6 +520,44 @@
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         </node>
       </node>
+      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="3099352988885347886">
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="3099352988885347888">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="3099352988885347892">
+            <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885347889">
+              <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027842" resolveInfo="out" />
+            </node>
+            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3099352988885349476">
+              <node role="right" roleId="mj1l.8860443239512128065" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349479">
+                <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027834" resolveInfo="offset" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3099352988885349434">
+                <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="3099352988885347900">
+                  <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885347897">
+                    <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027835" resolveInfo="lfo_gain" />
+                  </node>
+                  <node role="right" roleId="mj1l.8860443239512128065" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885347906">
+                    <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027754" resolveInfo="out" />
+                    <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885347903">
+                      <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027759" resolveInfo="lfo" />
+                    </node>
+                  </node>
+                </node>
+                <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="3099352988885349464">
+                  <node role="left" roleId="mj1l.8860443239512128064" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349461">
+                    <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027836" resolveInfo="env_gain" />
+                  </node>
+                  <node role="right" roleId="mj1l.8860443239512128065" type="adf4.ProcessorMemberAccess" typeId="adf4.6161009227789655175" id="3099352988885349470">
+                    <link role="member" roleId="adf4.6161009227789655177" targetNodeId="5369925560948027823" resolveInfo="out" />
+                    <node role="operand" roleId="adf4.6161009227789772798" type="adf4.ProcessorMemberRefExpr" typeId="adf4.3140209388624398771" id="3099352988885349467">
+                      <link role="member" roleId="adf4.3140209388624432297" targetNodeId="5369925560948027761" resolveInfo="env" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="5369925560948027800">
       <property name="name" nameId="tpck.1169194664001" value="empty_1347805036101_9" />
@@ -427,7 +582,6 @@
           </node>
         </node>
       </node>
-      <node role="bindings" roleId="adf4.5369925560947959615" type="adf4.PinBinding" typeId="adf4.7137732555654306414" id="5369925560948027855" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6176768421031354970">
       <property name="name" nameId="tpck.1169194664001" value="empty_1347809638390_11" />
@@ -500,6 +654,40 @@
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="6057175373189999527">
       <property name="name" nameId="tpck.1169194664001" value="modulator" />
       <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6057175373189999528" />
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346765">
+        <property name="name" nameId="tpck.1169194664001" value="carrier" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346767">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346769">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346775">
+        <property name="name" nameId="tpck.1169194664001" value="modulator" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346772">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346774">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="141976413434346783">
+        <property name="name" nameId="tpck.1169194664001" value="out" />
+        <property name="direction" nameId="adf4.1120624793934396788" value="out" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346780">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346782">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="6057175373189999551">
       <property name="name" nameId="tpck.1169194664001" value="empty_1347061491613_9" />
@@ -537,20 +725,35 @@
           <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="5369925560948027750" resolveInfo="lfo" />
         </node>
       </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="141976413434346810">
+        <property name="name" nameId="tpck.1169194664001" value="in" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346814">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346816">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="adf4.6057175373189952298" type="clbe.Member" typeId="clbe.5882395403881875736" id="141976413434346817">
+        <property name="name" nameId="tpck.1169194664001" value="out" />
+        <node role="type" roleId="mj1l.318113533128716676" type="adf4.Signal" typeId="adf4.6887334175325984500" id="141976413434346819">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="elementType" roleId="adf4.6887334175325984501" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="141976413434346821">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="366191967835212620">
       <property name="name" nameId="tpck.1169194664001" value="empty_1348165182910_1" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="adf4.ProcessorDeclaration" typeId="adf4.1120624793934526437" id="6176768421031354978">
       <property name="name" nameId="tpck.1169194664001" value="step_sequencer" />
-      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6176768421031354979">
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="6680867891278199185">
-          <property name="name" nameId="tpck.1169194664001" value="deneme" />
-          <node role="type" roleId="mj1l.318113533128716676" type="clbe.StructType" typeId="clbe.6394819151180597816" id="6680867891278199192">
-            <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="6680867891278199191" resolveInfo="ABCD" />
-          </node>
-        </node>
-      </node>
+      <node role="process" roleId="adf4.1120624793934558355" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6176768421031354979" />
       <node role="members" roleId="adf4.6057175373189952298" type="adf4.Pin" typeId="adf4.1120624793934396780" id="6176768421031354982">
         <property name="name" nameId="tpck.1169194664001" value="out" />
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.DoubleType" typeId="mj1l.8864856114140038681" id="6176768421031354981">
@@ -825,7 +1028,7 @@
             <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
             <property name="const" nameId="mj1l.2941277002445651368" value="false" />
             <node role="baseType" roleId="yq40.279446265608459825" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="6783606093476155015">
-              <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6057175373189999505" resolveInfo="voice" />
+              <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6176768421031354896" resolveInfo="voice" />
             </node>
           </node>
           <node role="sizeExpr" roleId="yq40.1452920870317474611" type="x27k.GlobalConstantRef" typeId="x27k.3788988821852026523" id="8627815965871609454">
@@ -901,7 +1104,7 @@
             <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
             <property name="const" nameId="mj1l.2941277002445651368" value="false" />
             <node role="baseType" roleId="yq40.5679441017214012546" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="8627815965871609426">
-              <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6057175373189999505" resolveInfo="voice" />
+              <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6176768421031354896" resolveInfo="voice" />
             </node>
             <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8627815965871609448">
               <property name="value" nameId="mj1l.8860443239512128104" value="2" />
@@ -934,7 +1137,7 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
           <node role="baseType" roleId="yq40.5679441017214012546" type="adf4.ProcessorType" typeId="adf4.6688546463199367774" id="8627815965871609444">
-            <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6057175373189999505" resolveInfo="voice" />
+            <link role="processor" roleId="adf4.6057175373189770797" targetNodeId="6176768421031354896" resolveInfo="voice" />
           </node>
           <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8627815965871609446">
             <property name="value" nameId="mj1l.8860443239512128104" value="16" />
@@ -1740,12 +1943,41 @@
                 <property name="value" nameId="mj1l.8860443239512128104" value="8" />
               </node>
             </node>
+            <node role="init" roleId="clqz.4643433264760912612" type="c4fa.ArrayInitExpression" typeId="c4fa.5095889050031622570" id="3099352988885308735">
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308736">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308738">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308740">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308742">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308744">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308746">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308748">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+              <node role="exprs" roleId="c4fa.5095889050031622571" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308750">
+                <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+              </node>
+            </node>
           </node>
           <node role="contents" roleId="clqz.7835233251114737454" type="clqz.StatemachineVariableDeclaration" typeId="clqz.5633981208992643165" id="3251553248649792510">
             <property name="name" nameId="tpck.1169194664001" value="i" />
             <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt8tType" typeId="mj1l.8463282783691618461" id="3251553248649792512">
               <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
               <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+            <node role="init" roleId="clqz.4643433264760912612" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308732">
+              <property name="value" nameId="mj1l.8860443239512128104" value="0" />
             </node>
           </node>
           <node role="contents" roleId="clqz.7835233251114737454" type="clqz.EmptyStatemachineContent" typeId="clqz.8927638623067326788" id="3251553248649792513" />
@@ -1755,12 +1987,18 @@
               <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
               <property name="const" nameId="mj1l.2941277002445651368" value="false" />
             </node>
+            <node role="init" roleId="clqz.4643433264760912612" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308733">
+              <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+            </node>
           </node>
           <node role="contents" roleId="clqz.7835233251114737454" type="clqz.StatemachineVariableDeclaration" typeId="clqz.5633981208992643165" id="3251553248649792517">
             <property name="name" nameId="tpck.1169194664001" value="event" />
             <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt8tType" typeId="mj1l.8463282783691618461" id="3251553248649792519">
               <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
               <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+            <node role="init" roleId="clqz.4643433264760912612" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3099352988885308734">
+              <property name="value" nameId="mj1l.8860443239512128104" value="0" />
             </node>
           </node>
           <node role="contents" roleId="clqz.7835233251114737454" type="clqz.EmptyStatemachineContent" typeId="clqz.8927638623067326788" id="3251553248649792520" />

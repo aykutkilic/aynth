@@ -132,5 +132,11 @@
     </dependencies>
     <rename id="adf4.141976413434299000" type="CHILD" from="tp" to="to" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="21" />
+    </dependencies>
+    <rename id="adf4.141976413434349725" type="REFERENCE" from="type" to="containerType" />
+  </StructureModification>
 </history>
 
