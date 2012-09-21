@@ -103,19 +103,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="processors" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://aynth/processors">
+      <file leaf-file-name="ProcessorMemberAccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://com.mbeddr.dataflow.structure/ProcessorMemberAccess">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="10" />
-                    <property name="caretX" value="460" />
+                    <property name="caretXRelative" value="132" />
+                    <property name="caretX" value="171" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_gv2hhe_f0" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="5369925560948027746" />
+                    <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
+                      <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="6161009227789655175" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -125,32 +125,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signal Operations" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://com.mbeddr.dataflow.typesystem/Signal Operations">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="160" />
-                    <property name="caretX" value="195" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                      <node model="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" id="3099352988885356871" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
+              <node nodeId="6161009227789655175" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
             </state>
           </provider>
         </entry>
@@ -160,30 +135,14 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-              <node nodeId="3140209388624478936" modelId="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessorMemberRefExpr" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://com.mbeddr.dataflow.structure/ProcessorMemberRefExpr">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-15" />
-                    <property name="caretX" value="0" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="105" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_ueqr71_a" cellNumber="0" isInList="false">
-                      <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="3140209388624398771" />
+                    <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                      <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="1120624793934526437" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -193,7 +152,60 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="3140209388624398771" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+              <node nodeId="1120624793934526437" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorContainerRefExpr" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://com.mbeddr.dataflow.structure/ProcessorContainerRefExpr">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="105" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                      <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="141976413434359503" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="141976413434359503" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="processors" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://aynth/processors">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="1956">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="84" />
+                    <property name="caretX" value="171" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="5369925560948027847" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -201,6 +213,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="aykutkilic" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
@@ -225,8 +242,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
     <option name="y" value="24" />
-    <option name="width" value="1631" />
-    <option name="height" value="1026" />
+    <option name="width" value="1871" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -336,9 +353,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites">
-        <subPane />
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <PATH>
@@ -362,16 +376,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -387,55 +391,14 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.mbeddr.dataflow">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.mbeddr.dataflow.typesystem">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="structure">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.mbeddr.audio">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="aynth">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="aynth">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Favorites">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -443,7 +406,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.lastSelected" value="mps.editor.settings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -535,7 +498,6 @@
       </myJavaRunParameters>
       <method>
         <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
-        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
       </method>
     </configuration>
     <list size="1">
@@ -596,7 +558,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1631" height="1026" extended-state="6" />
+    <frame x="49" y="24" width="1871" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4498101" order="7" side_tool="false" content_ui="tabs" />
@@ -605,29 +567,29 @@
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.49815497" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23939064" sideWeight="0.28883344" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23864837" sideWeight="0.28757462" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14676617" sideWeight="0.78969955" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19316332" sideWeight="0.7972545" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19889808" sideWeight="0.6722866" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252376" sideWeight="0.42430818" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32455215" sideWeight="0.4226804" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21030043" sideWeight="0.61442786" order="22" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20274551" sideWeight="0.5610418" order="22" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.44384158" order="23" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2808349" sideWeight="0.78969955" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2808349" sideWeight="0.78969955" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21030043" sideWeight="0.3812189" order="26" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20274551" sideWeight="0.43516007" order="26" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="27" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1600,7 +1562,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added self expression (does not yet work for instances)&#10;- updated pin binding expressions for self." />
+    <option name="LAST_COMMIT_MESSAGE" value="- typesystem for processor member refs now works&#10;- typesystem for signal, primitivetype operations now work" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1623,65 +1585,9 @@
     <MESSAGE value="added instance pin bindings&#10;MIDI mappings now work (no code generation yet)" />
     <MESSAGE value="- ProcessorMemberAccess now works." />
     <MESSAGE value="- added self expression (does not yet work for instances)&#10;- updated pin binding expressions for self." />
+    <MESSAGE value="- typesystem for processor member refs now works&#10;- typesystem for signal, primitivetype operations now work" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://aynth/audio_engine">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="93" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="6703535165502583576" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.ext.statemachines.structure/StatemachineVariableDeclaration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_ueqr71_a" cellNumber="0" isInList="false">
-                  <node model="r:5ebcdb77-81e9-4964-beae-35bd9a2f28b5(com.mbeddr.ext.statemachines.structure)" id="5633981208992643165" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_ueqr71_a_0" cellNumber="0" isInList="false">
-                  <node model="r:5ebcdb77-81e9-4964-beae-35bd9a2f28b5(com.mbeddr.ext.statemachines.structure)" id="5633981208992643165" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </inspectorMemento>
-          <node nodeId="5633981208992643165" modelId="r:5ebcdb77-81e9-4964-beae-35bd9a2f28b5(com.mbeddr.ext.statemachines.structure)" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://aynth/midi">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1699,35 +1605,20 @@
             </selectionStack>
             <folded />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.dataflow.structure/InstantiationContext">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento viewPositionX="48" viewPositionY="1020">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="333" />
+                <property name="caretXRelative" value="12" />
+                <property name="caretX" value="297" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" id="141976413434348308" />
+                <cellInfo cellId="Constant_ef9mk2_f0" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="3251553248649792505" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
           </inspectorMemento>
-          <node nodeId="141976413434348306" modelId="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" />
         </state>
       </provider>
     </entry>
@@ -1749,7 +1640,17 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="189" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" id="3156100806872912825" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
           <node nodeId="3156100806872912825" modelId="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" />
@@ -1775,12 +1676,13 @@
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="39" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_ndq0bl_a_0" cellNumber="0" isInList="false">
-                  <node model="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" id="5083029923012262342" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:a3244fc0-be62-48e6-ab96-c049b6558445(com.mbeddr.audio.structure)" id="2013381923439853795" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1809,10 +1711,10 @@
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
+                <property name="caretXRelative" value="-63" />
                 <property name="caretX" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_mi4qyq_a_0" cellNumber="0" isInList="false">
+                <cellInfo cellId="Collection_mi4qyq_a" cellNumber="0" isInList="false">
                   <node model="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" id="3678395359193813053" />
                 </cellInfo>
               </stackElement>
@@ -1842,10 +1744,10 @@
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
+                <property name="caretXRelative" value="-63" />
                 <property name="caretX" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_mi4qyq_a_0" cellNumber="0" isInList="false">
+                <cellInfo cellId="Collection_mi4qyq_a" cellNumber="0" isInList="false">
                   <node model="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" id="5083029923012262337" />
                 </cellInfo>
               </stackElement>
@@ -1874,34 +1776,20 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="5882395403881875736" modelId="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorMemberRefExpr">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="90" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_ueqr71_a" cellNumber="0" isInList="false">
-                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="3140209388624398771" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" id="5882395403881875736" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
           </inspectorMemento>
-          <node nodeId="3140209388624398771" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+          <node nodeId="5882395403881875736" modelId="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
         </state>
       </provider>
     </entry>
@@ -1923,7 +1811,17 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="35" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_conceptLink" cellNumber="0" isInList="false">
+                  <node model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" id="1133920641626" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
           <node nodeId="1133920641626" modelId="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -1947,26 +1845,21 @@
             </selectionStack>
             <folded />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento viewPositionX="0" viewPositionY="10">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="280" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" id="3406978297571773912" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
           <node nodeId="3406978297571773909" modelId="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorDeclaration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="3140209388624478936" modelId="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" />
         </state>
       </provider>
     </entry>
@@ -1989,10 +1882,10 @@
           <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
+                <property name="caretXRelative" value="-135" />
                 <property name="caretX" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_o0q9qg_a_0" cellNumber="0" isInList="false">
+                <cellInfo cellId="Collection_o0q9qg_a" cellNumber="0" isInList="false">
                   <node model="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" id="3406978297571773976" />
                 </cellInfo>
               </stackElement>
@@ -2010,7 +1903,7 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="160" />
+                <property name="caretXRelative" value="156" />
                 <property name="caretX" value="195" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
@@ -2021,24 +1914,177 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="156" />
+                <property name="caretX" value="195" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
+                  <node model="r:847c80d4-cdd5-4289-a92f-b3585825010f(com.mbeddr.dataflow.typesystem)" id="3099352988885356871" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorMemberRefExpr">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-15" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_ueqr71_a" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="3140209388624398771" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-15" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_ueqr71_a" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="3140209388624398771" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+          <node nodeId="3140209388624398771" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorInstance">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="39" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_propertyDeclaration" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="7137732555654306413" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="39" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_propertyDeclaration" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="7137732555654306413" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+          <node nodeId="7137732555654306413" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorMemberAccess">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="132" />
+                <property name="caretX" value="171" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="6161009227789655175" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <folded />
           </inspectorMemento>
+          <node nodeId="6161009227789655175" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorDeclaration">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="105" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="1120624793934526437" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="1120624793934526437" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.dataflow.structure/ProcessorContainerRefExpr">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="105" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" id="141976413434359503" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="141976413434359503" modelId="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" />
         </state>
       </provider>
     </entry>
     <entry file="mps://aynth/processors">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="1956">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="10" />
-                <property name="caretX" value="460" />
+                <property name="caretXRelative" value="84" />
+                <property name="caretX" value="171" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_gv2hhe_f0" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="5369925560948027746" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="5369925560948027847" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

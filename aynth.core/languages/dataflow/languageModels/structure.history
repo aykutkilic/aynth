@@ -138,5 +138,23 @@
     </dependencies>
     <rename id="adf4.141976413434349725" type="REFERENCE" from="type" to="containerType" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="22" />
+    </dependencies>
+    <rename id="adf4.3099352988885361744" type="REFERENCE" from="containers" to="container" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="23" />
+    </dependencies>
+    <rename id="adf4.141976413434349725" type="REFERENCE" from="containerT" to="container" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="adf4" modelUID="r:e6ed4609-d34b-4fb5-9a7e-303977a3cef5(com.mbeddr.dataflow.structure)" version="24" />
+    </dependencies>
+    <rename id="adf4.141976413434359504" type="REFERENCE" from="processorDeclaration" to="processor" />
+  </StructureModification>
 </history>
 
