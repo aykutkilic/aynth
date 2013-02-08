@@ -6,8 +6,6 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/audio/audio.mpl" folder="" />
-      <modulePath path="${project}/languages/dataflow/dataflow.mpl" />
       <modulePath path="${project}/solutions/aynth.core/aynth.core.msd" />
     </projectModules>
     <genConfs />
@@ -20,6 +18,14 @@
             <Library>
               <option name="name" value="mbeddr" />
               <option name="path" value="${mbeddr.github.core.home}/code/languages" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr extras">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr extras" />
+              <option name="path" value="$PROJECT_DIR$/../../mbeddr/code/languages" />
             </Library>
           </value>
         </entry>
