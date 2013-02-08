@@ -642,6 +642,12 @@
             <property name="value" nameId="mj1l.8860443239512128104" value="0" />
           </node>
         </node>
+        <node role="initFieldInitializers" roleId="v7ag.785275130114861567" type="v7ag.InitFieldInitializer" typeId="v7ag.785275130114861597" id="2359788821890362947">
+          <link role="field" roleId="v7ag.785275130114861598" targetNodeId="2359788821890245989" resolveInfo="freq_mod_gain" />
+          <node role="value" roleId="v7ag.785275130114861599" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2359788821890362949">
+            <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+          </node>
+        </node>
         <node role="initFieldInitializers" roleId="v7ag.785275130114861567" type="v7ag.InitFieldInitializer" typeId="v7ag.785275130114861597" id="2359788821890362003">
           <link role="field" roleId="v7ag.785275130114861598" targetNodeId="8125068996596431715" resolveInfo="wave_index" />
           <node role="value" roleId="v7ag.785275130114861599" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2359788821890362005">
@@ -1117,18 +1123,6 @@
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         </node>
-        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="8125068996596431405">
-          <property name="name" nameId="tpck.1169194664001" value="ctx" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8125068996596431406">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="yq40.279446265608459825" type="clbe.StructType" typeId="clbe.6394819151180597816" id="8125068996596431407">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8125068996596431178" resolveInfo="synth_ctx" />
-            </node>
-          </node>
-        </node>
       </node>
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="8125068996596431394" />
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="2359788821890246393">
@@ -1176,7 +1170,7 @@
       </node>
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="2359788821890246426" />
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="2359788821890246418">
-        <property name="name" nameId="tpck.1169194664001" value="ctrl_tick" />
+        <property name="name" nameId="tpck.1169194664001" value="on_ctrl_loop" />
         <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2359788821890246419">
           <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="2359788821890246427">
             <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="2359788821890246434">
@@ -1199,18 +1193,6 @@
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="2359788821890246422">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="2359788821890246423">
-          <property name="name" nameId="tpck.1169194664001" value="ctx" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="2359788821890246424">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="yq40.279446265608459825" type="clbe.StructType" typeId="clbe.6394819151180597816" id="2359788821890246425">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8125068996596431178" resolveInfo="synth_ctx" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
@@ -1813,9 +1795,14 @@
               <link role="function" roleId="x27k.5950410542643524493" targetNodeId="2359788821890360128" resolveInfo="init_ring_buffer" />
               <node role="actuals" roleId="x27k.5950410542643524495" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="2359788821890361140">
                 <link role="element" roleId="v7ag.998890089995051773" targetNodeId="2359788821890361112" resolveInfo="rb" />
-                <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890361133">
-                  <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="2359788821890361118" resolveInfo="out" />
+                <node role="expression" roleId="mj1l.7254843406768839760" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="2359788821890362983">
+                  <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890361133">
+                    <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="2359788821890361118" resolveInfo="out" />
+                  </node>
                 </node>
+              </node>
+              <node role="actuals" roleId="x27k.5950410542643524495" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2359788821890362989">
+                <property name="value" nameId="mj1l.8860443239512128104" value="512" />
               </node>
             </node>
           </node>
@@ -1852,19 +1839,19 @@
                     <link role="field" roleId="v7ag.5308710777891565562" targetNodeId="8125068996596431825" resolveInfo="freq" />
                   </node>
                   <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="2359788821890246098">
-                    <node role="right" roleId="mj1l.8860443239512128065" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="2359788821890246099">
-                      <link role="element" roleId="v7ag.998890089995051773" targetNodeId="8125068996596429919" resolveInfo="out" />
-                      <node role="expression" roleId="mj1l.7254843406768839760" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="2359788821890246100">
-                        <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.FieldRef" typeId="v7ag.5308710777891565561" id="2359788821890246101">
-                          <link role="field" roleId="v7ag.5308710777891565562" targetNodeId="2359788821890245989" resolveInfo="freq_mod_gain" />
-                        </node>
-                        <node role="right" roleId="mj1l.8860443239512128065" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890246102">
+                    <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.FieldRef" typeId="v7ag.5308710777891565561" id="2359788821890246103">
+                      <link role="field" roleId="v7ag.5308710777891565562" targetNodeId="8125068996596431821" resolveInfo="freq_mod_offset" />
+                    </node>
+                    <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="2359788821890362961">
+                      <node role="right" roleId="mj1l.8860443239512128065" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="2359788821890362969">
+                        <link role="element" roleId="v7ag.998890089995051773" targetNodeId="8125068996596429919" resolveInfo="out" />
+                        <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890362966">
                           <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="8125068996596431806" resolveInfo="freq_mod" />
                         </node>
                       </node>
-                    </node>
-                    <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.FieldRef" typeId="v7ag.5308710777891565561" id="2359788821890246103">
-                      <link role="field" roleId="v7ag.5308710777891565562" targetNodeId="8125068996596431821" resolveInfo="freq_mod_offset" />
+                      <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.FieldRef" typeId="v7ag.5308710777891565561" id="2359788821890362958">
+                        <link role="field" roleId="v7ag.5308710777891565562" targetNodeId="2359788821890245989" resolveInfo="freq_mod_gain" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1905,8 +1892,10 @@
               </node>
               <node role="actuals" roleId="v7ag.8105003328815091213" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="2359788821890361149">
                 <link role="element" roleId="v7ag.998890089995051773" targetNodeId="2359788821890361112" resolveInfo="rb" />
-                <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890361146">
-                  <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="2359788821890361118" resolveInfo="out" />
+                <node role="expression" roleId="mj1l.7254843406768839760" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="2359788821890362950">
+                  <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="2359788821890361146">
+                    <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="2359788821890361118" resolveInfo="out" />
+                  </node>
                 </node>
               </node>
               <node role="actuals" roleId="v7ag.8105003328815091213" type="x27k.ArgumentRef" typeId="x27k.2093108837558505658" id="2359788821890361104">
@@ -2012,6 +2001,7 @@
   <root id="8125068996596431213">
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="8125068996596429945">
       <property name="name" nameId="tpck.1169194664001" value="midi_note_to_freq" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8125068996596429947">
         <node role="statements" roleId="c4fa.4185783222026475862" type="x27k.ReturnStatement" typeId="x27k.8967919205527146149" id="8125068996596429951">
           <node role="expression" roleId="x27k.8967919205527146150" type="x27k.FunctionCall" typeId="x27k.5950410542643524492" id="8125068996596429971">
@@ -2297,6 +2287,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="imports" roleId="x27k.1317894735999304826" type="x27k.ModuleImport" typeId="x27k.1317894735999299713" id="2359788821890362911">
+      <link role="module" roleId="x27k.1317894735999299714" targetNodeId="8125068996596431213" resolveInfo="utilities" />
     </node>
   </root>
   <root id="2359788821890360116">
