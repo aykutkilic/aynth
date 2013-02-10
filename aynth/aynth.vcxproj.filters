@@ -24,10 +24,16 @@
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.c">
       <Filter>src-gen</Filter>
     </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src-gen">
       <UniqueIdentifier>{51379973-0837-4caf-9656-4497c0f89e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portaudio">
+      <UniqueIdentifier>{4859eafc-49cb-47c6-9494-e211ca5b737d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -53,5 +59,57 @@
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.h">
       <Filter>src-gen</Filter>
     </ClInclude>
+    <ClInclude Include="portmedia\portmidi.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\porttime.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\portaudio.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pa_win_wmme.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pa_win_waveformat.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pa_win_ds.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pa_stream.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pa_asio.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portmedia\pmutil.h">
+      <Filter>portaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="portmedia\portaudio_x86.dll">
+      <Filter>portaudio</Filter>
+    </None>
+    <None Include="portmedia\portaudio_x86.exp">
+      <Filter>portaudio</Filter>
+    </None>
+    <None Include="portmedia\portaudio_x86.pdb">
+      <Filter>portaudio</Filter>
+    </None>
+    <None Include="portmedia\portmidi_s.pdb">
+      <Filter>portaudio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="portmedia\portaudio_x86.lib">
+      <Filter>portaudio</Filter>
+    </Library>
+    <Library Include="portmedia\portmidi_s.lib">
+      <Filter>portaudio</Filter>
+    </Library>
   </ItemGroup>
 </Project>

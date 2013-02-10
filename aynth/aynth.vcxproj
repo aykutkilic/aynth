@@ -43,7 +43,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>.\ext\portmedia;..\aynth.core\solutions\aynth.core\source_gen;.;$(IncludePath)</IncludePath>
     <LibraryPath>C:\kilic\aynth\portmedia;$(LibraryPath)</LibraryPath>
-    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath>C:\github\aynth\aynth\portmedia;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -63,6 +63,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>portaudio_x86.lib;portmidi_s.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y "$(ProjectDir)portmedia\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -84,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.c" />
@@ -95,12 +99,34 @@
   <ItemGroup>
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\synth_elems.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.h" />
+    <ClInclude Include="portmedia\pa_asio.h" />
+    <ClInclude Include="portmedia\pa_stream.h" />
+    <ClInclude Include="portmedia\pa_win_ds.h" />
+    <ClInclude Include="portmedia\pa_win_waveformat.h" />
+    <ClInclude Include="portmedia\pa_win_wmme.h" />
+    <ClInclude Include="portmedia\pmutil.h" />
+    <ClInclude Include="portmedia\portaudio.h" />
+    <ClInclude Include="portmedia\portmidi.h" />
+    <ClInclude Include="portmedia\porttime.h" />
     <ClInclude Include="ring_buffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="portmedia\portaudio_x86.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="portmedia\portaudio_x86.exp" />
+    <None Include="portmedia\portaudio_x86.pdb" />
+    <None Include="portmedia\portmidi_s.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="portmedia\portaudio_x86.lib" />
+    <Library Include="portmedia\portmidi_s.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
