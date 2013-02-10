@@ -48,8 +48,7 @@ static int audioloop_callback( const void *inputBuffer,
 	float *out = (float*)outputBuffer;
 
 	poll_midi_in();
-	aynth_on_audio_loop( inputBuffer, outputBuffer, framesPerBuffer,timeInfo->currentTime );
-
+	aynth_on_audio_loop( inputBuffer, out, framesPerBuffer,timeInfo->currentTime );
     return 0;
 }
 

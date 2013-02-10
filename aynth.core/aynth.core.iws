@@ -40,8 +40,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef98ce5-9e7b-4dc1-af20-856ef7a5ff9a" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.2700.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3452.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.3628.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.40.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4296.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4372.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4460.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.4964.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5752.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.5856.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6736.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.6948.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7020.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7860.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976-cvtres.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976-cvtres.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976-rc.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976-rc.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="C:\github\aynth\aynth\Debug\link.7976.write.1.tlog" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/CL.read.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/CL.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/CL.write.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/CL.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/audio_engine.obj" afterPath="$PROJECT_DIR$/../aynth/Debug/audio_engine.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.exe" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.ilk" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.ilk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.lastbuildstate" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.lastbuildstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.obj" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.pdb" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/cl.command.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/cl.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/link.command.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/link.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/link.read.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/link.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/link.write.1.tlog" afterPath="$PROJECT_DIR$/../aynth/Debug/link.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/main.obj" afterPath="$PROJECT_DIR$/../aynth/Debug/main.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/midi.obj" afterPath="$PROJECT_DIR$/../aynth/Debug/midi.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/vc110.idb" afterPath="$PROJECT_DIR$/../aynth/Debug/vc110.idb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/vc110.pdb" afterPath="$PROJECT_DIR$/../aynth/Debug/vc110.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/aynth.sdf" afterPath="$PROJECT_DIR$/../aynth/aynth.sdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/aynth.v11.suo" afterPath="$PROJECT_DIR$/../aynth/aynth.v11.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/aynth.vcxproj.filters" afterPath="$PROJECT_DIR$/../aynth/aynth.vcxproj.filters" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/aynth.vcxproj" afterPath="$PROJECT_DIR$/../aynth/aynth.vcxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aynth.core.iws" afterPath="$PROJECT_DIR$/aynth.core.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/aynth.core/models/aynth.mps" afterPath="$PROJECT_DIR$/solutions/aynth.core/models/aynth.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/Debug/aynth.log" afterPath="$PROJECT_DIR$/../aynth/Debug/aynth.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/main.cpp" afterPath="$PROJECT_DIR$/../aynth/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/ring_buffer.c" afterPath="$PROJECT_DIR$/../aynth/ring_buffer.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aynth/ring_buffer.h" afterPath="$PROJECT_DIR$/../aynth/ring_buffer.h" />
     </list>
     <ignored path="aynth.core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,19 +189,19 @@
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
       </finders>
     </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.LinkDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.LinkInstances_Finder" />
+      </finders>
+    </finders_option>
     <finders_option node="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration">
       <finders>
         <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
         <finder class_name="jetbrains.mps.lang.behavior.findUsages.OverridingMethods_Finder" />
-      </finders>
-    </finders_option>
-    <finders_option node="jetbrains.mps.lang.structure.structure.LinkDeclaration">
-      <finders>
-        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
-        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
-        <finder class_name="jetbrains.mps.lang.structure.findUsages.LinkInstances_Finder" />
       </finders>
     </finders_option>
   </component>
@@ -97,93 +211,15 @@
         <entry file="mps://aynth/oscillators">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="1606">
+              <memento viewPositionX="0" viewPositionY="647">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="144" />
-                    <property name="caretX" value="231" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="87" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360993" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildConfiguration (aynth)" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://aynth/BuildConfiguration (aynth)">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="96" />
-                    <property name="caretX" value="111" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_h9lqgi_j0" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="1120624793934515469" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aynth" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://aynth/aynth">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="863">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="108" />
-                    <property name="caretX" value="273" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890362024" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="midi" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://aynth/midi">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="72" />
-                    <property name="caretX" value="321" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890362911" />
+                    <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="7069683886699030400" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -205,11 +241,88 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="60" />
+                    <property name="caretXRelative" value="108" />
                     <property name="caretX" value="201" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596429944" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596431213" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="synth_elems" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://aynth/synth_elems">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="60" />
+                    <property name="caretX" value="537" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="7069683886698996024" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aynth" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://aynth/aynth">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_luh5hj_a0" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="6382356015126000996" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ring_buffer" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://aynth/ring_buffer">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-39" />
+                    <property name="caretX" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Collection_fogur5_a_0" cellNumber="0" isInList="false">
+                      <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360140" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -255,8 +368,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -408,6 +521,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -421,16 +544,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -440,28 +553,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="aynth">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="aynth">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="aynth">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="8125068996596431215">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -471,30 +562,20 @@
       <pane id="Favorites">
         <subPane />
       </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="JUnit Tests.Tests in 'dataflow'">
     <configuration default="false" name="Tests in 'dataflow'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -579,7 +660,6 @@
       </myJavaRunParameters>
       <method>
         <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
-        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
       </method>
     </configuration>
     <list size="1">
@@ -640,41 +720,41 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4498101" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Transition Table" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Transition Table" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771337" sideWeight="0.32501358" order="29" side_tool="false" content_ui="tabs" />
-      <window_info id="Switch Verification Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Switch Verification Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.49815497" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14719102" sideWeight="0.5754831" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22921348" sideWeight="0.7095411" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22134832" sideWeight="0.28321257" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22921348" sideWeight="0.28757462" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cmbc Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Cmbc Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1799517" sideWeight="0.7707865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2035865" sideWeight="0.8086957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19889808" sideWeight="0.6722866" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32455215" sideWeight="0.4226804" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20273349" sideWeight="0.5610418" order="22" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19130434" sideWeight="0.7172996" order="22" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.44384158" order="23" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2808349" sideWeight="0.78969955" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2808349" sideWeight="0.78969955" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14719102" sideWeight="0.42028984" order="26" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19130434" sideWeight="0.27900845" order="26" side_tool="false" content_ui="tabs" />
       <window_info id="NuSMV Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Yices Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1606,81 +1686,6 @@
     <MESSAGE value="- typesystem for processor member refs now works&#10;- typesystem for signal, primitivetype operations now work" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://com.mbeddr.ext.components.structure/InterfaceToImplementationMapping">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="381" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:34c22766-f23d-4187-999d-c7c74593a678(com.mbeddr.ext.components.textGen)" id="7798021607625433044" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="7798021607625433044" modelId="r:34c22766-f23d-4187-999d-c7c74593a678(com.mbeddr.ext.components.textGen)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.ext.components.structure/InstanceConfigContents">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="108" />
-                <property name="caretX" value="147" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7v1nzk_e1c0" cellNumber="0" isInList="false">
-                  <node model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" id="6041318036222235015" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6041318036222235015" modelId="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://com.mbeddr.ext.components.structure/AssemblyConnector">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="168" />
-                <property name="caretX" value="627" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" id="6041318036222235018" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="4491876417845649016" modelId="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://com.mbeddr.ext.compositecomponents.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1778,30 +1783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://aynth/synth_elems">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="24" />
-                <property name="caretX" value="225" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890361112" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://aynth/audio_engine">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1826,18 +1807,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://aynth/BuildConfiguration (aynth)">
+    <entry file="mps://aynth/modulators">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="96" />
-                <property name="caretX" value="111" />
+                <property name="caretXRelative" value="36" />
+                <property name="caretX" value="357" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_h9lqgi_j0" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="1120624793934515469" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890246404" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://com.mbeddr.ext.components.gen_nomw.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="11520">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="108" />
+                <property name="caretX" value="503" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_comment" cellNumber="0" isInList="false">
+                  <node model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" id="3445700254259600383" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1853,15 +1858,15 @@
     <entry file="mps://aynth/midi">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="496">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="72" />
-                <property name="caretX" value="321" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890362911" />
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596431320" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1874,66 +1879,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://aynth/modulators">
+    <entry file="mps://aynth/BuildConfiguration (aynth)">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="60">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="165" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_imha9e_a0" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="6382356015125990677" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://aynth/clibs">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="24" />
-                <property name="caretX" value="87" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596429920" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://aynth/utilities">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="60" />
-                <property name="caretX" value="201" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="conceptProperty_alias" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596429944" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://aynth/aynth">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="863">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="108" />
-                <property name="caretX" value="273" />
+                <property name="caretXRelative" value="12" />
+                <property name="caretX" value="129" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890362024" />
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596429964" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1956,23 +1937,86 @@
                 <property name="caretX" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Collection_fogur5_a_0" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360128" />
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360140" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://aynth/synth_elems">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="60" />
+                <property name="caretX" value="537" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_fogur5_a" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360128" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="7069683886698996024" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://aynth/utilities">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="108" />
+                <property name="caretX" value="201" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="8125068996596431213" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://aynth/aynth">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_luh5hj_a0" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="6382356015126000996" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <folded />
           </inspectorMemento>
         </state>
@@ -1981,15 +2025,15 @@
     <entry file="mps://aynth/oscillators">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="1606">
+          <memento viewPositionX="0" viewPositionY="647">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="144" />
-                <property name="caretX" value="231" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="87" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="2359788821890360993" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node model="r:c1b0a676-90a8-43bb-8e8c-d7cb3495648e(aynth)" id="7069683886699030400" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

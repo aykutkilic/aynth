@@ -30,3 +30,5 @@ eclipse/*/Release
 
 # C compiler artifacts
 *.o
+
+aynth/Debug

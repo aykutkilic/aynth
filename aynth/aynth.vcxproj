@@ -41,9 +41,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\kilic\aynth\portmedia;C:\github\aynth\aynth.core\solutions\aynth.core\source_gen;$(IncludePath)</IncludePath>
+    <IncludePath>.\ext\portmedia;..\aynth.core\solutions\aynth.core\source_gen;.;$(IncludePath)</IncludePath>
     <LibraryPath>C:\kilic\aynth\portmedia;$(LibraryPath)</LibraryPath>
-    <ExecutablePath>C:\Users\aykut\Desktop\portaudio\build\msvc\Win32\Debug;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -82,12 +82,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\github\aynth\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\synth_elems.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ring_buffer.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\github\aynth\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\synth_elems.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.h" />
     <ClInclude Include="ring_buffer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

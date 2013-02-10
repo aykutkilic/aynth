@@ -2,10 +2,28 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="..\..\github\aynth\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c">
+    <ClCompile Include="ring_buffer.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.c">
       <Filter>src-gen</Filter>
     </ClCompile>
-    <ClCompile Include="ring_buffer.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\synth_elems.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src-gen">
@@ -13,9 +31,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\github\aynth\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h">
+    <ClInclude Include="ring_buffer.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.h">
       <Filter>src-gen</Filter>
     </ClInclude>
-    <ClInclude Include="ring_buffer.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\oscillators.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\synth_elems.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\utilities.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
