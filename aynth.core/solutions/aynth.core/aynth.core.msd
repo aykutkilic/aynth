@@ -8,8 +8,6 @@
     <dependency reexport="false">7bb2fde4-1dd3-4cc6-b8d6-6755853dd5fd(com.mbeddr.ext.exceptionhandling)</dependency>
   </dependencies>
   <usedLanguages>
-    <usedLanguage>e94ec7c7-e615-4357-99d2-c6cbfa83f993(com.mbeddr.audio)</usedLanguage>
-    <usedLanguage>60925c3a-d882-4765-88b2-8e6f4b319600(com.mbeddr.dataflow)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
   </usedLanguages>
   <usedDevKits>

@@ -9,6 +9,12 @@
 
 #include <aynth\aynth.h>
 
+#if defined WIN32
+#include <winsock.h>
+#elif defined __linux__
+#include <unistd.h>
+#endif
+
 PaStream * audio_out;
 PmEvent    buffer[1];
 PmStream * midi_in;
@@ -53,8 +59,23 @@ static int audioloop_callback( const void *inputBuffer,
     return 0;
 }
 
+void init_network() {
+	#if defined WIN32
+		WSADATA wsa_data;
+		WSAStartup(MAKEWORD(1,1), &wsa_data);
+	#endif
+}
+
+void uninit_network() {
+	#if defined WIN32
+		WSACleanup();
+	#endif
+}
+
 int main() {
 	aynth_initialize();
+
+	init_network();
 
 	//-------------------------------------------------------------------------
 	// initializing midi - in.
@@ -132,6 +153,7 @@ int main() {
     if( err != paNoError ) return -3;
 
     Pa_Terminate();
+	uninit_network();
     printf("Test finished.\n");
 	
     return err;
