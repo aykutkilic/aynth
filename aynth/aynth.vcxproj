@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.c" />
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\delays.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.c" />
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.c" />
@@ -99,6 +100,7 @@
   <ItemGroup>
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\audio_engine.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\aynth.h" />
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\delays.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\midi.h" />
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\modulators.h" />

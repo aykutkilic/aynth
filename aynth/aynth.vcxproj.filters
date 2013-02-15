@@ -27,6 +27,9 @@
     <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.c">
       <Filter>src-gen</Filter>
     </ClCompile>
+    <ClCompile Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\delays.c">
+      <Filter>src-gen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src-gen">
@@ -87,6 +90,9 @@
       <Filter>portaudio</Filter>
     </ClInclude>
     <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\filters.h">
+      <Filter>src-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aynth.core\solutions\aynth.core\source_gen\aynth\delays.h">
       <Filter>src-gen</Filter>
     </ClInclude>
   </ItemGroup>

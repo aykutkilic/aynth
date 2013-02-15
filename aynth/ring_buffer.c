@@ -7,6 +7,7 @@
 
 void init_ring_buffer( ring_buffer * rb, uint32_t buffer_size) {
 	rb->buffer = (double *) malloc( sizeof(double) * buffer_size );
+	memset( rb->buffer, 0, sizeof(double)*buffer_size );
 	rb->size = buffer_size;
 	rb->cursor = 0;
 }

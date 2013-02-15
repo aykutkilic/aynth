@@ -48,6 +48,7 @@ static int audioloop_callback( const void *inputBuffer,
 	float *out = (float*)outputBuffer;
 
 	poll_midi_in();
+
 	aynth_on_audio_loop( inputBuffer, out, framesPerBuffer,timeInfo->currentTime );
     return 0;
 }
@@ -72,8 +73,8 @@ int main() {
 	Pm_OpenInput( &midi_in, 
 				  1, 
 				  nullptr, 
-				  100, 
-				  ((int32_t (*)(void *)) Pt_Time),
+				  256, 
+			0	  ((int32_t (*)(void *)) Pt_Time),
 		          nullptr );
 
     Pm_SetFilter(midi_in, PM_FILT_ACTIVE | PM_FILT_CLOCK | PM_FILT_SYSEX);
@@ -122,7 +123,7 @@ int main() {
 	if( err != paNoError ) return -4;
 
 	/* Sleep for several seconds. */
-    Pa_Sleep( 30*1000 );
+    Pa_Sleep( 200*1000 );
 
 	err = Pa_StopStream( audio_out );
     if( err != paNoError ) return -2;
