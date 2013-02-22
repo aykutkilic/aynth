@@ -10,21 +10,30 @@
 #include <aynth\aynth.h>
 
 #if defined WIN32
-#include <winsock.h>
+	#include <winsock.h>
+    #include <windows.h>
+	#pragma comment(lib, "ws2_32.lib")
 #elif defined __linux__
-#include <unistd.h>
+	#include <unistd.h>
 #endif
+
+const static int comm_port = 8080;
+
 
 PaStream * audio_out;
 PmEvent    buffer[1];
 PmStream * midi_in;
 
+HANDLE h_comm_thread;
+SOCKET client_socket;
+SOCKET listening_socket;
+
 static void poll_midi_in() {
 	PmError status; 
-
-	int i=0;
+	int     i=0;
     
 	status = Pm_Poll(midi_in);
+
     if( status == TRUE ) {
         while( Pm_Read( midi_in, buffer, 1 ) > 0 ) {
 			uint32_t time_stamp = buffer[0].timestamp;
@@ -34,7 +43,7 @@ static void poll_midi_in() {
 
 			aynth_on_midi_msg(time_stamp, status, data1, data2 );
 
-            printf("MIDI IN %d: time %ld, %2lx %2lx %2lx\n",
+            printf( "MIDI IN %d: time %ld, %2lx %2lx %2lx\n",
                     i,
                     (long) time_stamp,
                     (long) status,
@@ -45,57 +54,115 @@ static void poll_midi_in() {
 	}
 }
 
-static int audioloop_callback( const void *inputBuffer, 
-							   void *outputBuffer,
-							   unsigned long framesPerBuffer,
-                               const PaStreamCallbackTimeInfo* timeInfo,
-                               PaStreamCallbackFlags statusFlags,
-                               void * userData ) {	
-	float *out = (float*)outputBuffer;
+static int audioloop_callback( const void *input_buffer, 
+							   void *output_buffer,
+							   unsigned long frames_per_buffer,
+                               const PaStreamCallbackTimeInfo* time_info,
+                               PaStreamCallbackFlags status_flags,
+                               void * user_data ) {	
+	float *out = (float*)output_buffer;
 
 	poll_midi_in();
 
-	aynth_on_audio_loop( inputBuffer, out, framesPerBuffer,timeInfo->currentTime );
+	aynth_on_audio_loop( input_buffer, out, frames_per_buffer, time_info->currentTime );
+
     return 0;
 }
 
 void init_network() {
-	#if defined WIN32
-		WSADATA wsa_data;
-		WSAStartup(MAKEWORD(1,1), &wsa_data);
-	#endif
+	int result;
+
+	WSADATA wsa_data;
+	WSAStartup(MAKEWORD(1,1), &wsa_data);
+
+	listening_socket = socket( AF_INET,	SOCK_STREAM, IPPROTO_TCP );
+	if (listening_socket == INVALID_SOCKET) goto fail;
+
+	SOCKADDR_IN server_info;
+	server_info.sin_family = AF_INET;
+	server_info.sin_addr.s_addr = INADDR_ANY;
+	server_info.sin_port = htons(comm_port);
+
+	// Bind the socket to our local server address
+	result = bind(listening_socket, (LPSOCKADDR)&server_info, sizeof(struct sockaddr));
+	if(result==SOCKET_ERROR ) goto fail;
+
+	result = listen(listening_socket, 10);
+	if( result == SOCKET_ERROR ) goto fail;
+
+	printf("waiting for client connection from port %i\n", comm_port);
+	client_socket = accept( listening_socket, NULL, NULL );
+	if( result == INVALID_SOCKET ) goto fail;
+	printf("Connection established.\n");
+  
+	return;
+
+fail:
+	LPWSTR err_str = NULL;
+	result = WSAGetLastError();
+	int size = FormatMessage( 
+					FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, 
+					0,
+					result, 
+					0,      
+					(LPWSTR)&err_str,
+					0,
+					nullptr);
+
+	wprintf( L"network error : %s\n", err_str );
+	LocalFree(err_str);
+
+	WSACleanup();
+
+	return;
 }
 
 void uninit_network() {
+	CloseHandle( h_comm_thread );
+	closesocket( client_socket );
+	closesocket( listening_socket );
 	#if defined WIN32
 		WSACleanup();
 	#endif
 }
 
+DWORD WINAPI comm_thread_fn(void * data) {
+	init_network();
+
+	char buffer[256];
+	while(true) {
+		send( client_socket, buffer, 256, 0 );
+		Pa_Sleep(10);
+	}
+
+	uninit_network();
+
+    return 0;
+}
+
 int main() {
 	aynth_initialize();
 
-	init_network();
-
+	h_comm_thread = CreateThread(NULL, 0, comm_thread_fn, NULL, 0, NULL);
 	//-------------------------------------------------------------------------
 	// initializing midi - in.
 	int num_midi_dev = Pm_CountDevices();
 
 	for(int i=0; i<num_midi_dev; i++ ) {
-		const PmDeviceInfo * info = Pm_GetDeviceInfo(i);
-		printf("midi device [%i] = %s\n", i, info->name);
+		const PmDeviceInfo * info = Pm_GetDeviceInfo( i );
+		printf( "midi device [%i] = %s\n", i, info->name );
 	}
 
 	/* It is recommended to start timer before Midi; otherwise, PortMidi may
        start the timer with its (default) parameters
      */
-    Pt_Start(1, 0, 0);
+    Pt_Start( 1, 0, 0 );
 
 	Pm_OpenInput( &midi_in, 
 				  1, 
 				  nullptr, 
 				  256, 
-			0	  ((int32_t (*)(void *)) Pt_Time),
+				  ((int32_t (*)(void *)) Pt_Time),
 		          nullptr );
 
     Pm_SetFilter(midi_in, PM_FILT_ACTIVE | PM_FILT_CLOCK | PM_FILT_SYSEX);
@@ -153,7 +220,7 @@ int main() {
     if( err != paNoError ) return -3;
 
     Pa_Terminate();
-	uninit_network();
+
     printf("Test finished.\n");
 	
     return err;
