@@ -563,7 +563,21 @@
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.EmptyComponentContent" typeId="v7ag.8515777736166878876" id="7069683886699037436" />
       <node role="contents" roleId="v7ag.6041318036221669720" type="v7ag.Runnable" typeId="v7ag.4491876417845641670" id="8125068996596431757">
         <property name="name" nameId="tpck.1169194664001" value="init" />
-        <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8125068996596431758" />
+        <node role="body" roleId="v7ag.4491876417845689763" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8125068996596431758">
+          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7069683886699037555">
+            <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7069683886699037569">
+              <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7069683886699037572">
+                <property name="value" nameId="mj1l.8860443239512128104" value="44100" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="7069683886699037566">
+                <link role="element" roleId="v7ag.998890089995051773" targetNodeId="7069683886699033430" resolveInfo="sample_rate" />
+                <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="7069683886699037556">
+                  <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="7069683886699037393" resolveInfo="synth_state" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="8125068996596431756">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
@@ -644,19 +658,6 @@
               <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="7069683886699037517">
                 <link role="element" roleId="v7ag.998890089995051773" targetNodeId="7069683886699033428" resolveInfo="t" />
                 <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="7069683886699037507">
-                  <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="7069683886699037393" resolveInfo="synth_state" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="7069683886699037555">
-            <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.AssignmentExpr" typeId="mj1l.22102029902365709" id="7069683886699037569">
-              <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7069683886699037572">
-                <property name="value" nameId="mj1l.8860443239512128104" value="44100" />
-              </node>
-              <node role="left" roleId="mj1l.8860443239512128064" type="v7ag.DataElementRefExpr" typeId="v7ag.998890089995051771" id="7069683886699037566">
-                <link role="element" roleId="v7ag.998890089995051773" targetNodeId="7069683886699033430" resolveInfo="sample_rate" />
-                <node role="expression" roleId="mj1l.7254843406768839760" type="v7ag.PortRefExpr" typeId="v7ag.8105003328815208362" id="7069683886699037556">
                   <link role="port" roleId="v7ag.8105003328815208363" targetNodeId="7069683886699037393" resolveInfo="synth_state" />
                 </node>
               </node>
