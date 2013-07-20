@@ -1,0 +1,46 @@
+module midi imports utilities { 
+  exported cs interface i_midi_msg_listener { 
+    void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) 
+  } 
+   
+  exported cs interface i_gate_listener { 
+    void on_key_down() 
+    void on_key_up() 
+  } 
+   
+  exported sr interface i_voice { 
+    double freq; 
+    double velocity; 
+  } 
+   
+  exported sr interface i_midi_ctrl { 
+    double[256] ctrl; 
+  } 
+   
+  exported component midi_processor extends nothing { 
+    provides i_midi_msg_listener midi_events 
+    provides i_voice voice 
+    provides i_midi_ctrl ctrl 
+    requires i_gate_listener gate_events 
+     
+    void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) <= op midi_events.on_midi_msg { 
+      switch (status) { 
+        case hex<80>: { 
+          gate_events.on_key_up(); 
+          break; 
+        } case 
+        case hex<90>: { 
+          voice.freq = midi_note_to_freq(data1); 
+          voice.velocity = unsafe(double)<data2> / 127.0; 
+          gate_events.on_key_down(); 
+          break; 
+        } case 
+        case hex<b0>: { 
+          ctrl.ctrl[data1] = unsafe(double)<data2> / 127.0; 
+          break; 
+        } case 
+      } switch 
+       
+    } runnable on_midi_msg 
+  } component midi_processor 
+}

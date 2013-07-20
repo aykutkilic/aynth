@@ -1,0 +1,5 @@
+module utilities imports clibs {
+	exported double midi_note_to_freq(uint8 midi_note) { 
+	  return 440.0 * pow(2, unsafe(double)<midi_note - hex<24>> / 12.0); 
+	} midi_note_to_freq (function)
+}

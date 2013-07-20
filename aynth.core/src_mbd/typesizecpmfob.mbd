@@ -1,0 +1,23 @@
+Type Size Configuration                                       
+                                                              
+max int size int64                                            
+size_t type (size of size_t) int                              
+pointer diff type (size of pointer) int                       
+                                                              
+integral type mappings                                        
+  char -> char (is available true)                            
+  short -> short (is available true)                          
+  int -> int (is available true)                              
+  int32 -> int (is available true)                            
+  long -> long (is available true)                            
+  long long -> long long (is available true)                  
+  unsigned char -> unsigned char (is available true)          
+  unsigned int -> unsigned int (is available true)            
+  unsigned short -> unsigned short (is available true)        
+  unsigned long -> unsigned long (is available true)          
+  unsigned long long -> unsigned long long (is available true)
+                                                              
+floating point type mappings                                  
+  float -> float (is available true)                          
+  double -> double (is available true)                        
+  long double -> long double (is available true)              

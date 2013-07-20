@@ -1,0 +1,22 @@
+// external module contents are exported by default 
+external module clibs imports nothing resources header: <stdlib.h>
+												header: <string.h>
+												header: <stdio.h>
+												header: <math.h>    {
+  void* malloc(size_t size); 
+  void* realloc(void* ptr, size_t new_size); 
+  void* calloc(size_t num, size_t size); 
+  void free(void* ptr); 
+  void memset(void* dest, int value, size_t size); 
+  void memcpy(void* src, void* dest, size_t size); 
+   
+  double sin(double x); 
+  double cos(double x); 
+  double tan(double x); 
+  double exp(double x); 
+   
+  double pow(double base, double power); 
+  double fmod(double input, double modulus); 
+   
+  const double M_PI; 
+}

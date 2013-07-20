@@ -1,0 +1,36 @@
+module delays imports synth_elems, clibs, ring_buffer, modulators { 
+  exported component delay_fx extends nothing { 
+    provides i_audio audio_out 
+    requires i_audio audio_in 
+    provides i_audio_loop_elem audio_loop 
+     
+    requires i_modulation dry_wet 
+    requires i_modulation delay 
+    requires i_modulation feedback 
+    requires i_synth_state synth_state 
+     
+    ring_buffer delay_line; 
+     
+    void init() <= on init { 
+      init_ring_buffer(&delay_line, unsafe(uint32)<synth_state.sample_rate>); 
+      init_ring_buffer(&audio_out.rb, 256); 
+    } runnable init 
+     
+    void audio_loop_on_audio_loop_prepare(uint32 count) <= op audio_loop.on_audio_loop_prepare { 
+      double out_avg = 0; 
+      for (i ++ in [0..count[) { 
+        double in = single_read_ring_buffer(&audio_in.rb, unsafe(int32)<i>); 
+        double delay_line_val = single_read_ring_buffer(&delay_line, unsafe(int32)<i>); 
+        double out = delay_line_val * 0.5 + 0.5 * in; 
+        out_avg += in; 
+        single_write_ring_buffer(&delay_line, unsafe(int32)<delay.out> + unsafe(int32)<i>, out * feedback.out); 
+        single_write_ring_buffer(&audio_out.rb, unsafe(int32)<i>, out); 
+      } for 
+    } runnable audio_loop_on_audio_loop_prepare 
+     
+    void audio_loop_on_audio_loop_finalize(uint32 count) <= op audio_loop.on_audio_loop_finalize { 
+      shift_ring_buffer(&audio_out.rb, count); 
+      shift_ring_buffer(&delay_line, count); 
+    } runnable audio_loop_on_audio_loop_finalize 
+  } component delay_fx 
+}

@@ -1,0 +1,24 @@
+module synth_elems imports clibs, ring_buffer {
+	exported sr interface i_audio { 
+	  ring_buffer rb; 
+	} 
+	 
+	exported sr interface i_synth_state { 
+	  double t; 
+	  double ctrl_dt; 
+	  double sample_rate; 
+	} 
+	 
+	exported cs interface i_audio_loop_elem { 
+	  void on_audio_loop_prepare(uint32 count) 
+	  void on_audio_loop_finalize(uint32 count) 
+	} 
+	 
+	exported cs interface i_ctrl_loop_elem { 
+	  void on_ctrl_loop() 
+	} 
+	 
+	exported messagelist prop { 
+	  INFO prop(double value) active: propping 
+	} 
+}

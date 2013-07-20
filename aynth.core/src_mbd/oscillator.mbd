@@ -1,0 +1,96 @@
+module oscillators imports synth_elems, midi, modulators, clibs, ring_buffer { 
+  #define wave_table_size = hex<1000>; 
+   
+  exported cs interface i_wave_source { 
+    double get_interp_value(uint8 wave_index, double from, double delta) 
+    double interp_write_to_rb(ring_buffer* rb, uint8 wave_index, uint32 count, double freq, double phase, double gain) 
+  } 
+   
+  exported component wave_table_bank extends nothing { 
+    provides i_wave_source wave_src 
+    requires i_synth_state synth_state 
+     
+    double[32][wave_table_size] wave_tables; 
+     
+    void initialize_wave_tables() <= on init { 
+      for (i ++ in [0..wave_table_size[) { 
+        double r = unsafe(double)<i> / unsafe(double)<wave_table_size>; 
+        wave_tables[0][i] = sin(2 * M_PI * r); 
+        wave_tables[1][i] = -1 + 2 * r; 
+        wave_tables[2][i] = r > 0.5 ? 1 : -1; 
+      } for 
+    } runnable initialize_wave_tables 
+     
+    internal uint32 rel_to_abs_index(double rel_index) <= no trigger { 
+      return unsafe(uint32)<rel_index * unsafe(double)<wave_table_size> / unsafe(double)<synth_state.sample_rate>>; 
+    } runnable rel_to_abs_index 
+     
+    double get_interp_value(uint8 wave_index, double from, double delta) <= op wave_src.get_interp_value { 
+      double sum = 0; 
+       
+      uint32 from_abs = rel_to_abs_index(from); 
+      uint32 delta_abs = rel_to_abs_index(delta); 
+       
+      for (i ++ in [0..delta_abs[) { 
+        sum += wave_tables[wave_index][(from_abs + i) % wave_table_size]; 
+      } for 
+       
+      if (delta_abs == 0) { 
+        return sum; 
+      } if 
+       
+      return sum / unsafe(double)<delta_abs>; 
+    } runnable get_interp_value 
+     
+    double interp_write_to_ring_buffer(ring_buffer* rb, uint8 wave_index, uint32 count, double freq, double phase, double gain) <= op wave_src.interp_write_to_rb { 
+      double speed = freq * unsafe(double)<wave_table_size> / synth_state.sample_rate; 
+       
+      for (i ++ in [0..count[) { 
+        double value = get_interp_value(wave_index, phase + unsafe(double)<i> * speed, speed); 
+        single_write_ring_buffer(rb, i, value * gain); 
+      } for 
+       
+      return phase + unsafe(double)<count> * speed; 
+    } runnable interp_write_to_ring_buffer 
+  } component wave_table_bank 
+   
+  exported component oscillator extends nothing { 
+    init uint8 wave_index; 
+    init double freq_mod_offset; 
+    init double freq_mod_gain; 
+     
+    requires i_modulation gain 
+    requires i_wave_source wave_src 
+    requires i_voice voice 
+    provides i_audio out 
+     
+    provides i_ctrl_loop_elem ctrl_loop 
+    provides i_audio_loop_elem audio_loop 
+     
+    requires i_modulation freq_mod optional 
+     
+    double freq; 
+    double wave_position; 
+     
+    void init() <= on init { 
+      init_ring_buffer(&out.rb, 512); 
+    } runnable init 
+     
+    void on_ctrl_loop() <= op ctrl_loop.on_ctrl_loop { 
+      freq = voice.freq; 
+      when port connected (freq_mod) { 
+        freq *= pow(2, freq_mod_gain * freq_mod.out / 12); 
+      } when port connected 
+      freq *= pow(2, freq_mod_offset / 12); 
+       
+    } runnable on_ctrl_loop 
+     
+    void compute_audio(uint32 count) <= op audio_loop.on_audio_loop_prepare { 
+      wave_position = wave_src.interp_write_to_rb(&out.rb, wave_index, count, freq, wave_position, gain.out); 
+    } runnable compute_audio 
+     
+    void finalize_audio(uint32 count) <= op audio_loop.on_audio_loop_finalize { 
+      shift_ring_buffer(&out.rb, count); 
+    } runnable finalize_audio 
+  } component oscillator 
+}

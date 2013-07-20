@@ -1,0 +1,32 @@
+Build Configuration for aynth 
+ 
+Build System: 
+  desktop 
+    compiler: gcc 
+    compiler options: -std=c99 
+    debug options: -g 
+ 
+Configuration Items 
+  components { 
+    generation strategy: no middleware { 
+      wire statically: false 
+      check contracts (runtime & static): false 
+    } 
+  } 
+  reporting: printf 
+  statemachines in components 
+ 
+Binaries 
+  static library aynth { 
+    audio_engine  
+    aynth  
+    clibs  
+    delays  
+    filters  
+    midi  
+    modulators  
+    oscillators  
+    ring_buffer () 
+    synth_elems  
+    utilities  
+  }

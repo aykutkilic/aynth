@@ -1,0 +1,138 @@
+module modulators imports midi, synth_elems {
+	exported sr interface i_modulation { 
+	  double out; 
+	} 
+	 
+	exported enum adsr_state { 
+	  note_off; 
+	  attacking; 
+	  decaying; 
+	  sustaining; 
+	  releasing; 
+	} 
+	 
+	exported component adsr_envelope extends nothing { 
+	  init boolean trigger; 
+	   
+	  provides i_gate_listener gate 
+	  provides i_ctrl_loop_elem ctrl 
+	  provides i_modulation mod 
+	  requires i_synth_state synth_state 
+	   
+	  requires i_modulation att_mod 
+	  requires i_modulation dec_mod 
+	  requires i_modulation sus_mod 
+	  requires i_modulation rel_mod 
+	   
+	  adsr_state state = note_off; 
+	  int32 key_count = 0; 
+	  double state_base_time; 
+	   
+	  void on_ctrl_loop() <= op ctrl.on_ctrl_loop { 
+		double state_time = synth_state.t - state_base_time; 
+		switch (state) { 
+		  case attacking: { 
+			if (state_time >= att_mod.out) { 
+			  switch_state(decaying); 
+			} if 
+			 
+			mod.out += synth_state.ctrl_dt / att_mod.out; 
+			 
+			if (mod.out >= 1) { 
+			  mod.out = 1; 
+			  switch_state(decaying); 
+			} if 
+			break; 
+		  } case 
+		  case decaying: { 
+			if (state_time >= dec_mod.out) { 
+			  switch_state(sustaining); 
+			} if 
+			mod.out -= synth_state.ctrl_dt / dec_mod.out; 
+			if (mod.out <= sus_mod.out) { 
+			  mod.out = sus_mod.out; 
+			  switch_state(sustaining); 
+			} if 
+			break; 
+		  } case 
+		  case releasing: { 
+			mod.out -= synth_state.ctrl_dt / rel_mod.out; 
+			if (mod.out <= 0) { 
+			  mod.out = 0; 
+			  switch_state(note_off); 
+			} if 
+			break; 
+		  } case 
+		} switch 
+	  } runnable on_ctrl_loop 
+	   
+	  internal void switch_state(adsr_state target_state) <= no trigger { 
+		switch (target_state) { 
+		  case attacking: { 
+			if (att_mod.out <= 0.0001) { 
+			  mod.out = 1; 
+			  switch_state(decaying); 
+			  return; 
+			} if 
+			break; 
+		  } case 
+		  case decaying: { 
+			if (dec_mod.out <= 0.0001) { 
+			  switch_state(sustaining); 
+			  return; 
+			} if 
+			break; 
+		  } case 
+		  case releasing: { 
+			if (rel_mod.out <= 0.0001) { 
+			  switch_state(note_off); 
+			  mod.out = 0; 
+			  return; 
+			} if 
+			break; 
+		  } case 
+		} switch 
+		state = target_state; 
+		state_base_time = synth_state.t; 
+	  } runnable switch_state 
+	   
+	  void gate_on_key_down() <= op gate.on_key_down { 
+		key_count++; 
+		switch_state(attacking); 
+	  } runnable gate_on_key_down 
+	   
+	  void gate_on_key_up() <= op gate.on_key_up { 
+		key_count--; 
+		if (key_count < 0) { 
+		  key_count = 0; 
+		} if 
+		if (state != note_off && key_count == 0) { 
+		  switch_state(releasing); 
+		} if 
+	  } runnable gate_on_key_up 
+	} component adsr_envelope 
+	 
+	exported component lfo extends nothing { 
+	  provides i_modulation mod 
+	  provides i_ctrl_loop_elem ctrl 
+	   
+	  void on_ctrl_loop() <= op ctrl.on_ctrl_loop { 
+		mod.out = 1; 
+	  } runnable on_ctrl_loop 
+	} component lfo 
+	 
+	exported component midi_to_modulation extends nothing { 
+	  init uint8 ctrl_index; 
+	  init double offset; 
+	  init double gain; 
+	   
+	  provides i_modulation mod 
+	  requires i_midi_ctrl ctrl 
+	   
+	  provides i_ctrl_loop_elem ctrl_loop 
+	   
+	  void ctrl_loop_on_ctrl_loop() <= op ctrl_loop.on_ctrl_loop { 
+		mod.out = ctrl.ctrl[ctrl_index] * gain + offset; 
+	  } runnable ctrl_loop_on_ctrl_loop 
+	} component midi_to_modulation
+}

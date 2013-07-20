@@ -1,0 +1,26 @@
+module audio_engine imports aynth { 
+   
+  exported cs interface i_synth_engine { 
+    void start_synth() 
+    void stop_synth() 
+  } 
+   
+  exported cs interface i_audio_engine_listener { 
+    void on_audio_loop(uint32 nframes) 
+    void on_control_loop() 
+  } 
+   
+  exported component synth_engine extends nothing { 
+    provides i_synth_engine audio 
+    requires i_audio_engine_listener subscriber 
+     
+    void start_synth() <= op audio.start_synth { 
+       
+    } runnable start_synth 
+     
+    void stop_synth() <= op audio.stop_synth { 
+       
+    } runnable stop_synth 
+  } component synth_engine 
+   
+}
