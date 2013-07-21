@@ -1,143 +1,143 @@
 module aynth imports clibs, delays, filters, modulators, midi, oscillators, ring_buffer, synth_elems { 
-  exported void initialize() { 
-  initialize app; 
-} initialize (function) 
+	exported void initialize() { 
+		initialize app; 
+	} initialize (function) 
    
-  exported void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) { 
-  ae_listener.on_midi_msg(time_stamp, status, data1, data2); 
-} on_midi_msg (function) 
+	exported void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) { 
+		ae_listener.on_midi_msg(time_stamp, status, data1, data2); 
+	} on_midi_msg (function) 
    
-  exported void on_audio_loop(const void* in, float* out, uint32 frames, double t) { 
-  ae_listener.on_audio_loop(in, out, frames, t); 
-} on_audio_loop (function) 
+	exported void on_audio_loop(const void* in, float* out, uint32 frames, double t) { 
+		ae_listener.on_audio_loop(in, out, frames, t); 
+	} on_audio_loop (function) 
    
-  cs interface i_audio_engine_listener { 
-    void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) 
-    void on_audio_loop(const void* input, float* output, uint32 nframes, double t) 
-  } 
+	cs interface i_audio_engine_listener { 
+		void on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) 
+		void on_audio_loop(const void* input, float* output, uint32 nframes, double t) 
+	} 
    
-  component synth extends nothing { 
-    provides i_audio_engine_listener ae_listener 
-    requires i_midi_msg_listener midi_events 
-    requires i_audio mix_down 
-    provides i_synth_state synth_state 
-    requires i_audio_loop_elem audio_elems [3] 
-    requires i_ctrl_loop_elem ctrl_elems [13] 
-     
-    double last_t = 0; 
-     
-    void init() <= on init { 
-      synth_state.sample_rate = 44100; 
-    } runnable init 
-     
-    void synth_on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) <= op ae_listener.on_midi_msg { 
-      midi_events.on_midi_msg(time_stamp, status, data1, data2); 
-    } runnable synth_on_midi_msg 
-     
-    void compute_audio(const void* input, float* output, uint32 nframes, double t) <= op ae_listener.on_audio_loop { 
-      synth_state.t = t; 
-      synth_state.ctrl_dt = t - last_t; 
-       
-      on_ctrl_loop(); 
-       
-      audio_elems.on_audio_loop_prepare(nframes); 
-       
-      for (i ++ in [0..nframes[) { 
-        output[2 * i] = unsafe(float)<single_read_ring_buffer(&mix_down.rb, unsafe(int32)<i>)>; 
-        output[2 * i + 1] = output[2 * i]; 
-      } for 
-       
-      audio_elems.on_audio_loop_finalize(nframes); 
-      shift_ring_buffer(&mix_down.rb, nframes); 
-       
-      last_t = t; 
-       
-    } runnable compute_audio 
-     
-    internal void on_ctrl_loop() <= no trigger { 
-      ctrl_elems.on_ctrl_loop(); 
-    } runnable on_ctrl_loop 
-  } component synth 
+    component synth extends nothing { 
+	    provides i_audio_engine_listener ae_listener 
+	    requires i_midi_msg_listener midi_events 
+	    requires i_audio mix_down 
+	    provides i_synth_state synth_state 
+	    requires i_audio_loop_elem audio_elems [3] 
+	    requires i_ctrl_loop_elem ctrl_elems [13] 
+	     
+	    double last_t = 0; 
+	     
+	    void init() <= on init { 
+	    	synth_state.sample_rate = 44100; 
+	    } runnable init 
+	     
+	    void synth_on_midi_msg(uint32 time_stamp, uint8 status, uint8 data1, uint8 data2) <= op ae_listener.on_midi_msg { 
+	    	midi_events.on_midi_msg(time_stamp, status, data1, data2); 
+	    } runnable synth_on_midi_msg 
+	     
+	    void compute_audio(const void* input, float* output, uint32 nframes, double t) <= op ae_listener.on_audio_loop { 
+		    synth_state.t = t; 
+		    synth_state.ctrl_dt = t - last_t; 
+		     
+		    on_ctrl_loop(); 
+		     
+		    audio_elems.on_audio_loop_prepare(nframes); 
+		     
+		    for (i ++ in [0..nframes[) { 
+		      output[2 * i] = unsafe(float)<single_read_ring_buffer(&mix_down.rb, unsafe(int32)<i>)>; 
+		      output[2 * i + 1] = output[2 * i]; 
+		    } for 
+		     
+		    audio_elems.on_audio_loop_finalize(nframes); 
+		    shift_ring_buffer(&mix_down.rb, nframes); 
+		     
+		    last_t = t; 
+		     
+	    } runnable compute_audio 
+	     
+	    internal void on_ctrl_loop() <= no trigger { 
+	      ctrl_elems.on_ctrl_loop(); 
+	    } runnable on_ctrl_loop 
+    } component synth 
    
-  instances app { 
-    instance synth aynth 
-    instance midi_processor midi_processor 
-     
-    instance wave_table_bank wt_src 
-    instance oscillator osc1(freq_mod_gain = 12, freq_mod_offset = 0, wave_index = 0) 
-    instance lp_filter filter 
-    instance delay_fx delay 
-    instance adsr_envelope adsr1(trigger = true) 
-     
-    instance midi_to_modulation knob1(ctrl_index = 31, offset = 20, gain = 20000) 
-    instance midi_to_modulation knob2(ctrl_index = 32, offset = -25, gain = 50) 
-    instance midi_to_modulation knob3(ctrl_index = 33, offset = 1, gain = 44100) 
-    instance midi_to_modulation knob4(ctrl_index = 34, offset = 0, gain = 1) 
-    instance midi_to_modulation knob5(ctrl_index = 35, offset = 0, gain = 1) 
-     
-    instance midi_to_modulation mod_wheel(ctrl_index = 1, offset = 0, gain = 6) 
-     
-    instance midi_to_modulation slider1(ctrl_index = 41, offset = 0, gain = 5) 
-    instance midi_to_modulation slider2(ctrl_index = 42, offset = 0, gain = 5) 
-    instance midi_to_modulation slider3(ctrl_index = 43, offset = 0, gain = 1) 
-    instance midi_to_modulation slider4(ctrl_index = 44, offset = 0, gain = 5) 
-     
-    connect aynth.midi_events to midi_processor.midi_events 
-    connect wt_src.synth_state to aynth.synth_state 
-     
-    connect knob1.ctrl to midi_processor.ctrl 
-    connect knob2.ctrl to midi_processor.ctrl 
-    connect knob3.ctrl to midi_processor.ctrl 
-    connect knob4.ctrl to midi_processor.ctrl 
-    connect knob5.ctrl to midi_processor.ctrl 
-    connect mod_wheel.ctrl to midi_processor.ctrl 
-    connect slider1.ctrl to midi_processor.ctrl 
-    connect slider2.ctrl to midi_processor.ctrl 
-    connect slider3.ctrl to midi_processor.ctrl 
-    connect slider4.ctrl to midi_processor.ctrl 
-     
-    connect osc1.voice to midi_processor.voice 
-    connect osc1.wave_src to wt_src.wave_src 
-    connect osc1.freq_mod to mod_wheel.mod 
-    connect osc1.gain to adsr1.mod 
-     
-    connect filter.audio_in to osc1.out 
-    connect filter.synth_state to aynth.synth_state 
-    connect filter.cutoff_mod to knob1.mod 
-    connect filter.res_mod to knob2.mod 
-     
-    connect delay.audio_in to filter.audio_out 
-    connect delay.synth_state to aynth.synth_state 
-    connect delay.delay to knob3.mod 
-    connect delay.feedback to knob4.mod 
-    connect delay.dry_wet to knob5.mod 
-     
-    connect adsr1.synth_state to aynth.synth_state 
-    connect adsr1.att_mod to slider1.mod 
-    connect adsr1.dec_mod to slider2.mod 
-    connect adsr1.sus_mod to slider3.mod 
-    connect adsr1.rel_mod to slider4.mod 
-     
-    connect aynth.mix_down to delay.audio_out 
-     
-    connect midi_processor.gate_events to adsr1.gate 
-    connect multi aynth.audio_elems to osc1.audio_loop 
-    connect multi aynth.audio_elems to filter.audio_loop 
-    connect multi aynth.audio_elems to delay.audio_loop 
-    connect multi aynth.ctrl_elems to osc1.ctrl_loop 
-    connect multi aynth.ctrl_elems to adsr1.ctrl 
-    connect multi aynth.ctrl_elems to filter.ctrl_loop 
-    connect multi aynth.ctrl_elems to knob1.ctrl_loop 
-    connect multi aynth.ctrl_elems to knob2.ctrl_loop 
-    connect multi aynth.ctrl_elems to knob3.ctrl_loop 
-    connect multi aynth.ctrl_elems to knob4.ctrl_loop 
-    connect multi aynth.ctrl_elems to knob5.ctrl_loop 
-    connect multi aynth.ctrl_elems to mod_wheel.ctrl_loop 
-    connect multi aynth.ctrl_elems to slider1.ctrl_loop 
-    connect multi aynth.ctrl_elems to slider2.ctrl_loop 
-    connect multi aynth.ctrl_elems to slider3.ctrl_loop 
-    connect multi aynth.ctrl_elems to slider4.ctrl_loop 
-     
-    adapt ae_listener -> aynth.ae_listener 
-  } 
+	instances app { 
+		instance synth aynth 
+		instance midi_processor midi_processor 
+		 
+		instance wave_table_bank wt_src 
+		instance oscillator osc1(freq_mod_gain = 12, freq_mod_offset = 0, wave_index = 0) 
+		instance lp_filter filter 
+		instance delay_fx delay 
+		instance adsr_envelope adsr1(trigger = true) 
+		 
+		instance midi_to_modulation knob1(ctrl_index = 31, offset = 20, gain = 20000) 
+		instance midi_to_modulation knob2(ctrl_index = 32, offset = -25, gain = 50) 
+		instance midi_to_modulation knob3(ctrl_index = 33, offset = 1, gain = 44100) 
+		instance midi_to_modulation knob4(ctrl_index = 34, offset = 0, gain = 1) 
+		instance midi_to_modulation knob5(ctrl_index = 35, offset = 0, gain = 1) 
+		 
+		instance midi_to_modulation mod_wheel(ctrl_index = 1, offset = 0, gain = 6) 
+		 
+		instance midi_to_modulation slider1(ctrl_index = 41, offset = 0, gain = 5) 
+		instance midi_to_modulation slider2(ctrl_index = 42, offset = 0, gain = 5) 
+		instance midi_to_modulation slider3(ctrl_index = 43, offset = 0, gain = 1) 
+		instance midi_to_modulation slider4(ctrl_index = 44, offset = 0, gain = 5) 
+		 
+		connect aynth.midi_events to midi_processor.midi_events 
+		connect wt_src.synth_state to aynth.synth_state 
+		 
+		connect knob1.ctrl to midi_processor.ctrl 
+		connect knob2.ctrl to midi_processor.ctrl 
+		connect knob3.ctrl to midi_processor.ctrl 
+		connect knob4.ctrl to midi_processor.ctrl 
+		connect knob5.ctrl to midi_processor.ctrl 
+		connect mod_wheel.ctrl to midi_processor.ctrl 
+		connect slider1.ctrl to midi_processor.ctrl 
+		connect slider2.ctrl to midi_processor.ctrl 
+		connect slider3.ctrl to midi_processor.ctrl 
+		connect slider4.ctrl to midi_processor.ctrl 
+		 
+		connect osc1.voice to midi_processor.voice 
+		connect osc1.wave_src to wt_src.wave_src 
+		connect osc1.freq_mod to mod_wheel.mod 
+		connect osc1.gain to adsr1.mod 
+		 
+		connect filter.audio_in to osc1.out 
+		connect filter.synth_state to aynth.synth_state 
+		connect filter.cutoff_mod to knob1.mod 
+		connect filter.res_mod to knob2.mod 
+		 
+		connect delay.audio_in to filter.audio_out 
+		connect delay.synth_state to aynth.synth_state 
+		connect delay.delay to knob3.mod 
+		connect delay.feedback to knob4.mod 
+		connect delay.dry_wet to knob5.mod 
+		 
+		connect adsr1.synth_state to aynth.synth_state 
+		connect adsr1.att_mod to slider1.mod 
+		connect adsr1.dec_mod to slider2.mod 
+		connect adsr1.sus_mod to slider3.mod 
+		connect adsr1.rel_mod to slider4.mod 
+		 
+		connect aynth.mix_down to delay.audio_out 
+		 
+		connect midi_processor.gate_events to adsr1.gate 
+		connect multi aynth.audio_elems to osc1.audio_loop 
+		connect multi aynth.audio_elems to filter.audio_loop 
+		connect multi aynth.audio_elems to delay.audio_loop 
+		connect multi aynth.ctrl_elems to osc1.ctrl_loop 
+		connect multi aynth.ctrl_elems to adsr1.ctrl 
+		connect multi aynth.ctrl_elems to filter.ctrl_loop 
+		connect multi aynth.ctrl_elems to knob1.ctrl_loop 
+		connect multi aynth.ctrl_elems to knob2.ctrl_loop 
+		connect multi aynth.ctrl_elems to knob3.ctrl_loop 
+		connect multi aynth.ctrl_elems to knob4.ctrl_loop 
+		connect multi aynth.ctrl_elems to knob5.ctrl_loop 
+		connect multi aynth.ctrl_elems to mod_wheel.ctrl_loop 
+		connect multi aynth.ctrl_elems to slider1.ctrl_loop 
+		connect multi aynth.ctrl_elems to slider2.ctrl_loop 
+		connect multi aynth.ctrl_elems to slider3.ctrl_loop 
+		connect multi aynth.ctrl_elems to slider4.ctrl_loop 
+		 
+		adapt ae_listener -> aynth.ae_listener 
+	} 
 }
